@@ -1,0 +1,11 @@
+Caro <NOME_ALUNO>,
+sua nota da atividade <DESCRICAO_ATIVIDADE> foi <NOTA>.
+
+SUAS RESPOSTAS
+
+<RESPOSTSAS>
+
+
+GABARITO
+
+<GABARITO>

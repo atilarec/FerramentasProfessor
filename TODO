@@ -1,0 +1,15 @@
+Lista de melhorias:
+
+- Fazer um interface para cofigurar e executar a aplicacao.
+   - Escolhe gabarito
+   - Escolhe xls de respostas
+   - corrige atividade
+   - Escolhe xls de atividades corrigidas
+   - Envia notas de atividades para o email de cada aluno
+   
+
+- Melhorar o detalhamento da correcao da atividade para o aluno
+   - Dizer quais questoes ele errou
+   - Colcar o gabarito no email
+   - Colocar comentarios
+   - Trabalhar com arquivos UTF8

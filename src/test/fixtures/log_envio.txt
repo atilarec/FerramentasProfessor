@@ -1,0 +1,1405 @@
+DEBUG SMTP: connected to host "smtp.gmail.com", port: 465
+
+EHLO falcon
+250-mx.google.com at your service, [187.58.101.250]
+250-SIZE 35651584
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH
+250 ENHANCEDSTATUSCODES
+DEBUG SMTP: Found extension "SIZE", arg "35651584"
+DEBUG SMTP: Found extension "8BITMIME", arg ""
+DEBUG SMTP: Found extension "AUTH", arg "LOGIN PLAIN XOAUTH"
+DEBUG SMTP: Found extension "ENHANCEDSTATUSCODES", arg ""
+DEBUG SMTP: Attempt to authenticate
+DEBUG SMTP: check mechanisms: LOGIN PLAIN DIGEST-MD5 NTLM 
+AUTH LOGIN
+334 VXNlcm5hbWU6
+YXRpbGEudWZycGVAZ21haWwuY29t
+334 UGFzc3dvcmQ6
+YXQxODA5ODM=
+235 2.7.0 Accepted
+DEBUG SMTP: use8bit false
+MAIL FROM:<atila.ufrpe@gmail.com>
+250 2.1.0 OK p15sm6409188ybk.37
+RCPT TO:<sandrapaula.figueroa@hotmail.com>
+250 2.1.5 OK p15sm6409188ybk.37
+DEBUG SMTP: Verified Addresses
+DEBUG SMTP:   "sandrapaula.figueroa@hotmail.com" <sandrapaula.figueroa@hotmail.com>
+DATA
+354  Go ahead p15sm6409188ybk.37
+Date: Fri, 11 Jun 2010 00:12:16 -0300 (GMT-03:00)
+From: "atila.ufrpe@gmail.com" <atila.ufrpe@gmail.com>
+To: "sandrapaula.figueroa@hotmail.com" <sandrapaula.figueroa@hotmail.com>
+Message-ID: <10520143.11.1276225936375.JavaMail.atila@falcon>
+Subject: Nota da atividade
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Ol=E1 Sandra Paula Leite Figuer=F4a,
+sua nota Exerc=EDcio 3 - Hardware de Computadores foi 9.0.
+
+Atila Bezerra
+disciplina Elementos de Inform=E1tica - UFRPE
+.
+250 2.0.0 OK 1276225942 p15sm6409188ybk.37
+QUIT
+221 2.0.0 closing connection p15sm6409188ybk.37
+Janice Maria de  Lima Martins
+DEBUG: JavaMail version 1.4.3
+DEBUG: successfully loaded resource: /META-INF/javamail.default.providers
+DEBUG: Tables of loaded providers
+DEBUG: Providers Listed By Class Name: {com.sun.mail.smtp.SMTPSSLTransport=javax.mail.Provider[TRANSPORT,smtps,com.sun.mail.smtp.SMTPSSLTransport,Sun Microsystems, Inc], com.sun.mail.smtp.SMTPTransport=javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Sun Microsystems, Inc], com.sun.mail.imap.IMAPSSLStore=javax.mail.Provider[STORE,imaps,com.sun.mail.imap.IMAPSSLStore,Sun Microsystems, Inc], com.sun.mail.pop3.POP3SSLStore=javax.mail.Provider[STORE,pop3s,com.sun.mail.pop3.POP3SSLStore,Sun Microsystems, Inc], com.sun.mail.imap.IMAPStore=javax.mail.Provider[STORE,imap,com.sun.mail.imap.IMAPStore,Sun Microsystems, Inc], com.sun.mail.pop3.POP3Store=javax.mail.Provider[STORE,pop3,com.sun.mail.pop3.POP3Store,Sun Microsystems, Inc]}
+DEBUG: Providers Listed By Protocol: {imaps=javax.mail.Provider[STORE,imaps,com.sun.mail.imap.IMAPSSLStore,Sun Microsystems, Inc], imap=javax.mail.Provider[STORE,imap,com.sun.mail.imap.IMAPStore,Sun Microsystems, Inc], smtps=javax.mail.Provider[TRANSPORT,smtps,com.sun.mail.smtp.SMTPSSLTransport,Sun Microsystems, Inc], pop3=javax.mail.Provider[STORE,pop3,com.sun.mail.pop3.POP3Store,Sun Microsystems, Inc], pop3s=javax.mail.Provider[STORE,pop3s,com.sun.mail.pop3.POP3SSLStore,Sun Microsystems, Inc], smtp=javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Sun Microsystems, Inc]}
+DEBUG: successfully loaded resource: /META-INF/javamail.default.address.map
+DEBUG: getProvider() returning javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Sun Microsystems, Inc]
+DEBUG SMTP: useEhlo true, useAuth true
+DEBUG SMTP: useEhlo true, useAuth true
+DEBUG SMTP: trying to connect to host "smtp.gmail.com", port 465, isSSL false
+220 mx.google.com ESMTP t1sm6434652ybi.10
+DEBUG SMTP: connected to host "smtp.gmail.com", port: 465
+
+EHLO falcon
+250-mx.google.com at your service, [187.58.101.250]
+250-SIZE 35651584
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH
+250 ENHANCEDSTATUSCODES
+DEBUG SMTP: Found extension "SIZE", arg "35651584"
+DEBUG SMTP: Found extension "8BITMIME", arg ""
+DEBUG SMTP: Found extension "AUTH", arg "LOGIN PLAIN XOAUTH"
+DEBUG SMTP: Found extension "ENHANCEDSTATUSCODES", arg ""
+DEBUG SMTP: Attempt to authenticate
+DEBUG SMTP: check mechanisms: LOGIN PLAIN DIGEST-MD5 NTLM 
+AUTH LOGIN
+334 VXNlcm5hbWU6
+YXRpbGEudWZycGVAZ21haWwuY29t
+334 UGFzc3dvcmQ6
+YXQxODA5ODM=
+235 2.7.0 Accepted
+DEBUG SMTP: use8bit false
+MAIL FROM:<atila.ufrpe@gmail.com>
+250 2.1.0 OK t1sm6434652ybi.10
+RCPT TO:<janicemlima@gmail.com>
+250 2.1.5 OK t1sm6434652ybi.10
+DEBUG SMTP: Verified Addresses
+DEBUG SMTP:   "janicemlima@gmail.com" <janicemlima@gmail.com>
+DATA
+354  Go ahead t1sm6434652ybi.10
+Date: Fri, 11 Jun 2010 00:12:22 -0300 (GMT-03:00)
+From: "atila.ufrpe@gmail.com" <atila.ufrpe@gmail.com>
+To: "janicemlima@gmail.com" <janicemlima@gmail.com>
+Message-ID: <30831739.12.1276225942765.JavaMail.atila@falcon>
+Subject: Nota da atividade
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Ol=E1 Janice Maria de  Lima Martins,
+sua nota Exerc=EDcio 3 - Hardware de Computadores foi 10.0.
+
+Atila Bezerra
+disciplina Elementos de Inform=E1tica - UFRPE
+.
+250 2.0.0 OK 1276225948 t1sm6434652ybi.10
+QUIT
+221 2.0.0 closing connection t1sm6434652ybi.10
+CÉLIA MARIA DE LIRA GUIMARAES
+DEBUG: JavaMail version 1.4.3
+DEBUG: successfully loaded resource: /META-INF/javamail.default.providers
+DEBUG: Tables of loaded providers
+DEBUG: Providers Listed By Class Name: {com.sun.mail.smtp.SMTPSSLTransport=javax.mail.Provider[TRANSPORT,smtps,com.sun.mail.smtp.SMTPSSLTransport,Sun Microsystems, Inc], com.sun.mail.smtp.SMTPTransport=javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Sun Microsystems, Inc], com.sun.mail.imap.IMAPSSLStore=javax.mail.Provider[STORE,imaps,com.sun.mail.imap.IMAPSSLStore,Sun Microsystems, Inc], com.sun.mail.pop3.POP3SSLStore=javax.mail.Provider[STORE,pop3s,com.sun.mail.pop3.POP3SSLStore,Sun Microsystems, Inc], com.sun.mail.imap.IMAPStore=javax.mail.Provider[STORE,imap,com.sun.mail.imap.IMAPStore,Sun Microsystems, Inc], com.sun.mail.pop3.POP3Store=javax.mail.Provider[STORE,pop3,com.sun.mail.pop3.POP3Store,Sun Microsystems, Inc]}
+DEBUG: Providers Listed By Protocol: {imaps=javax.mail.Provider[STORE,imaps,com.sun.mail.imap.IMAPSSLStore,Sun Microsystems, Inc], imap=javax.mail.Provider[STORE,imap,com.sun.mail.imap.IMAPStore,Sun Microsystems, Inc], smtps=javax.mail.Provider[TRANSPORT,smtps,com.sun.mail.smtp.SMTPSSLTransport,Sun Microsystems, Inc], pop3=javax.mail.Provider[STORE,pop3,com.sun.mail.pop3.POP3Store,Sun Microsystems, Inc], pop3s=javax.mail.Provider[STORE,pop3s,com.sun.mail.pop3.POP3SSLStore,Sun Microsystems, Inc], smtp=javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Sun Microsystems, Inc]}
+DEBUG: successfully loaded resource: /META-INF/javamail.default.address.map
+DEBUG: getProvider() returning javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Sun Microsystems, Inc]
+DEBUG SMTP: useEhlo true, useAuth true
+DEBUG SMTP: useEhlo true, useAuth true
+DEBUG SMTP: trying to connect to host "smtp.gmail.com", port 465, isSSL false
+220 mx.google.com ESMTP w12sm6412592ybk.40
+DEBUG SMTP: connected to host "smtp.gmail.com", port: 465
+
+EHLO falcon
+250-mx.google.com at your service, [187.58.101.250]
+250-SIZE 35651584
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH
+250 ENHANCEDSTATUSCODES
+DEBUG SMTP: Found extension "SIZE", arg "35651584"
+DEBUG SMTP: Found extension "8BITMIME", arg ""
+DEBUG SMTP: Found extension "AUTH", arg "LOGIN PLAIN XOAUTH"
+DEBUG SMTP: Found extension "ENHANCEDSTATUSCODES", arg ""
+DEBUG SMTP: Attempt to authenticate
+DEBUG SMTP: check mechanisms: LOGIN PLAIN DIGEST-MD5 NTLM 
+AUTH LOGIN
+334 VXNlcm5hbWU6
+YXRpbGEudWZycGVAZ21haWwuY29t
+334 UGFzc3dvcmQ6
+YXQxODA5ODM=
+235 2.7.0 Accepted
+DEBUG SMTP: use8bit false
+MAIL FROM:<atila.ufrpe@gmail.com>
+250 2.1.0 OK w12sm6412592ybk.40
+RCPT TO:<celia.lira@ig.com.br>
+250 2.1.5 OK w12sm6412592ybk.40
+DEBUG SMTP: Verified Addresses
+DEBUG SMTP:   "celia.lira@ig.com.br" <celia.lira@ig.com.br>
+DATA
+354  Go ahead w12sm6412592ybk.40
+Date: Fri, 11 Jun 2010 00:12:29 -0300 (GMT-03:00)
+From: "atila.ufrpe@gmail.com" <atila.ufrpe@gmail.com>
+To: "celia.lira@ig.com.br" <celia.lira@ig.com.br>
+Message-ID: <30462244.13.1276225949328.JavaMail.atila@falcon>
+Subject: Nota da atividade
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Ol=E1 C=C9LIA MARIA DE LIRA GUIMARAES,
+sua nota Exerc=EDcio 3 - Hardware de Computadores foi 10.0.
+
+Atila Bezerra
+disciplina Elementos de Inform=E1tica - UFRPE
+.
+250 2.0.0 OK 1276225954 w12sm6412592ybk.40
+QUIT
+221 2.0.0 closing connection w12sm6412592ybk.40
+Inácia Simone da Silva
+DEBUG: JavaMail version 1.4.3
+DEBUG: successfully loaded resource: /META-INF/javamail.default.providers
+DEBUG: Tables of loaded providers
+DEBUG: Providers Listed By Class Name: {com.sun.mail.smtp.SMTPSSLTransport=javax.mail.Provider[TRANSPORT,smtps,com.sun.mail.smtp.SMTPSSLTransport,Sun Microsystems, Inc], com.sun.mail.smtp.SMTPTransport=javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Sun Microsystems, Inc], com.sun.mail.imap.IMAPSSLStore=javax.mail.Provider[STORE,imaps,com.sun.mail.imap.IMAPSSLStore,Sun Microsystems, Inc], com.sun.mail.pop3.POP3SSLStore=javax.mail.Provider[STORE,pop3s,com.sun.mail.pop3.POP3SSLStore,Sun Microsystems, Inc], com.sun.mail.imap.IMAPStore=javax.mail.Provider[STORE,imap,com.sun.mail.imap.IMAPStore,Sun Microsystems, Inc], com.sun.mail.pop3.POP3Store=javax.mail.Provider[STORE,pop3,com.sun.mail.pop3.POP3Store,Sun Microsystems, Inc]}
+DEBUG: Providers Listed By Protocol: {imaps=javax.mail.Provider[STORE,imaps,com.sun.mail.imap.IMAPSSLStore,Sun Microsystems, Inc], imap=javax.mail.Provider[STORE,imap,com.sun.mail.imap.IMAPStore,Sun Microsystems, Inc], smtps=javax.mail.Provider[TRANSPORT,smtps,com.sun.mail.smtp.SMTPSSLTransport,Sun Microsystems, Inc], pop3=javax.mail.Provider[STORE,pop3,com.sun.mail.pop3.POP3Store,Sun Microsystems, Inc], pop3s=javax.mail.Provider[STORE,pop3s,com.sun.mail.pop3.POP3SSLStore,Sun Microsystems, Inc], smtp=javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Sun Microsystems, Inc]}
+DEBUG: successfully loaded resource: /META-INF/javamail.default.address.map
+DEBUG: getProvider() returning javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Sun Microsystems, Inc]
+DEBUG SMTP: useEhlo true, useAuth true
+DEBUG SMTP: useEhlo true, useAuth true
+DEBUG SMTP: trying to connect to host "smtp.gmail.com", port 465, isSSL false
+220 mx.google.com ESMTP t1sm6435979ybi.10
+DEBUG SMTP: connected to host "smtp.gmail.com", port: 465
+
+EHLO falcon
+250-mx.google.com at your service, [187.58.101.250]
+250-SIZE 35651584
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH
+250 ENHANCEDSTATUSCODES
+DEBUG SMTP: Found extension "SIZE", arg "35651584"
+DEBUG SMTP: Found extension "8BITMIME", arg ""
+DEBUG SMTP: Found extension "AUTH", arg "LOGIN PLAIN XOAUTH"
+DEBUG SMTP: Found extension "ENHANCEDSTATUSCODES", arg ""
+DEBUG SMTP: Attempt to authenticate
+DEBUG SMTP: check mechanisms: LOGIN PLAIN DIGEST-MD5 NTLM 
+AUTH LOGIN
+334 VXNlcm5hbWU6
+YXRpbGEudWZycGVAZ21haWwuY29t
+334 UGFzc3dvcmQ6
+YXQxODA5ODM=
+235 2.7.0 Accepted
+DEBUG SMTP: use8bit false
+MAIL FROM:<atila.ufrpe@gmail.com>
+250 2.1.0 OK t1sm6435979ybi.10
+RCPT TO:<simone_safira2007@hotmail.com>
+250 2.1.5 OK t1sm6435979ybi.10
+DEBUG SMTP: Verified Addresses
+DEBUG SMTP:   "simone_safira2007@hotmail.com" <simone_safira2007@hotmail.com>
+DATA
+354  Go ahead t1sm6435979ybi.10
+Date: Fri, 11 Jun 2010 00:12:35 -0300 (GMT-03:00)
+From: "atila.ufrpe@gmail.com" <atila.ufrpe@gmail.com>
+To: "simone_safira2007@hotmail.com" <simone_safira2007@hotmail.com>
+Message-ID: <11576309.14.1276225955421.JavaMail.atila@falcon>
+Subject: Nota da atividade
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Ol=E1 In=E1cia Simone da Silva,
+sua nota Exerc=EDcio 3 - Hardware de Computadores foi 10.0.
+
+Atila Bezerra
+disciplina Elementos de Inform=E1tica - UFRPE
+.
+250 2.0.0 OK 1276225959 t1sm6435979ybi.10
+QUIT
+221 2.0.0 closing connection t1sm6435979ybi.10
+Rebeka Cristina de Oliveira Barbosa
+DEBUG: JavaMail version 1.4.3
+DEBUG: successfully loaded resource: /META-INF/javamail.default.providers
+DEBUG: Tables of loaded providers
+DEBUG: Providers Listed By Class Name: {com.sun.mail.smtp.SMTPSSLTransport=javax.mail.Provider[TRANSPORT,smtps,com.sun.mail.smtp.SMTPSSLTransport,Sun Microsystems, Inc], com.sun.mail.smtp.SMTPTransport=javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Sun Microsystems, Inc], com.sun.mail.imap.IMAPSSLStore=javax.mail.Provider[STORE,imaps,com.sun.mail.imap.IMAPSSLStore,Sun Microsystems, Inc], com.sun.mail.pop3.POP3SSLStore=javax.mail.Provider[STORE,pop3s,com.sun.mail.pop3.POP3SSLStore,Sun Microsystems, Inc], com.sun.mail.imap.IMAPStore=javax.mail.Provider[STORE,imap,com.sun.mail.imap.IMAPStore,Sun Microsystems, Inc], com.sun.mail.pop3.POP3Store=javax.mail.Provider[STORE,pop3,com.sun.mail.pop3.POP3Store,Sun Microsystems, Inc]}
+DEBUG: Providers Listed By Protocol: {imaps=javax.mail.Provider[STORE,imaps,com.sun.mail.imap.IMAPSSLStore,Sun Microsystems, Inc], imap=javax.mail.Provider[STORE,imap,com.sun.mail.imap.IMAPStore,Sun Microsystems, Inc], smtps=javax.mail.Provider[TRANSPORT,smtps,com.sun.mail.smtp.SMTPSSLTransport,Sun Microsystems, Inc], pop3=javax.mail.Provider[STORE,pop3,com.sun.mail.pop3.POP3Store,Sun Microsystems, Inc], pop3s=javax.mail.Provider[STORE,pop3s,com.sun.mail.pop3.POP3SSLStore,Sun Microsystems, Inc], smtp=javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Sun Microsystems, Inc]}
+DEBUG: successfully loaded resource: /META-INF/javamail.default.address.map
+DEBUG: getProvider() returning javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Sun Microsystems, Inc]
+DEBUG SMTP: useEhlo true, useAuth true
+DEBUG SMTP: useEhlo true, useAuth true
+DEBUG SMTP: trying to connect to host "smtp.gmail.com", port 465, isSSL false
+220 mx.google.com ESMTP u1sm6446252ybe.8
+DEBUG SMTP: connected to host "smtp.gmail.com", port: 465
+
+EHLO falcon
+250-mx.google.com at your service, [187.58.101.250]
+250-SIZE 35651584
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH
+250 ENHANCEDSTATUSCODES
+DEBUG SMTP: Found extension "SIZE", arg "35651584"
+DEBUG SMTP: Found extension "8BITMIME", arg ""
+DEBUG SMTP: Found extension "AUTH", arg "LOGIN PLAIN XOAUTH"
+DEBUG SMTP: Found extension "ENHANCEDSTATUSCODES", arg ""
+DEBUG SMTP: Attempt to authenticate
+DEBUG SMTP: check mechanisms: LOGIN PLAIN DIGEST-MD5 NTLM 
+AUTH LOGIN
+334 VXNlcm5hbWU6
+YXRpbGEudWZycGVAZ21haWwuY29t
+334 UGFzc3dvcmQ6
+YXQxODA5ODM=
+235 2.7.0 Accepted
+DEBUG SMTP: use8bit false
+MAIL FROM:<atila.ufrpe@gmail.com>
+250 2.1.0 OK u1sm6446252ybe.8
+RCPT TO:<rebekabela@hotmail.com>
+250 2.1.5 OK u1sm6446252ybe.8
+DEBUG SMTP: Verified Addresses
+DEBUG SMTP:   "rebekabela@hotmail.com" <rebekabela@hotmail.com>
+DATA
+354  Go ahead u1sm6446252ybe.8
+Date: Fri, 11 Jun 2010 00:12:40 -0300 (GMT-03:00)
+From: "atila.ufrpe@gmail.com" <atila.ufrpe@gmail.com>
+To: "rebekabela@hotmail.com" <rebekabela@hotmail.com>
+Message-ID: <16900.15.1276225960562.JavaMail.atila@falcon>
+Subject: Nota da atividade
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Ol=E1 Rebeka Cristina de Oliveira Barbosa,
+sua nota Exerc=EDcio 3 - Hardware de Computadores foi 8.0.
+
+Atila Bezerra
+disciplina Elementos de Inform=E1tica - UFRPE
+.
+250 2.0.0 OK 1276225966 u1sm6446252ybe.8
+QUIT
+221 2.0.0 closing connection u1sm6446252ybe.8
+Carla Cristina Santos Ferreira
+DEBUG: JavaMail version 1.4.3
+DEBUG: successfully loaded resource: /META-INF/javamail.default.providers
+DEBUG: Tables of loaded providers
+DEBUG: Providers Listed By Class Name: {com.sun.mail.smtp.SMTPSSLTransport=javax.mail.Provider[TRANSPORT,smtps,com.sun.mail.smtp.SMTPSSLTransport,Sun Microsystems, Inc], com.sun.mail.smtp.SMTPTransport=javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Sun Microsystems, Inc], com.sun.mail.imap.IMAPSSLStore=javax.mail.Provider[STORE,imaps,com.sun.mail.imap.IMAPSSLStore,Sun Microsystems, Inc], com.sun.mail.pop3.POP3SSLStore=javax.mail.Provider[STORE,pop3s,com.sun.mail.pop3.POP3SSLStore,Sun Microsystems, Inc], com.sun.mail.imap.IMAPStore=javax.mail.Provider[STORE,imap,com.sun.mail.imap.IMAPStore,Sun Microsystems, Inc], com.sun.mail.pop3.POP3Store=javax.mail.Provider[STORE,pop3,com.sun.mail.pop3.POP3Store,Sun Microsystems, Inc]}
+DEBUG: Providers Listed By Protocol: {imaps=javax.mail.Provider[STORE,imaps,com.sun.mail.imap.IMAPSSLStore,Sun Microsystems, Inc], imap=javax.mail.Provider[STORE,imap,com.sun.mail.imap.IMAPStore,Sun Microsystems, Inc], smtps=javax.mail.Provider[TRANSPORT,smtps,com.sun.mail.smtp.SMTPSSLTransport,Sun Microsystems, Inc], pop3=javax.mail.Provider[STORE,pop3,com.sun.mail.pop3.POP3Store,Sun Microsystems, Inc], pop3s=javax.mail.Provider[STORE,pop3s,com.sun.mail.pop3.POP3SSLStore,Sun Microsystems, Inc], smtp=javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Sun Microsystems, Inc]}
+DEBUG: successfully loaded resource: /META-INF/javamail.default.address.map
+DEBUG: getProvider() returning javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Sun Microsystems, Inc]
+DEBUG SMTP: useEhlo true, useAuth true
+DEBUG SMTP: useEhlo true, useAuth true
+DEBUG SMTP: trying to connect to host "smtp.gmail.com", port 465, isSSL false
+220 mx.google.com ESMTP v2sm6452596ybh.4
+DEBUG SMTP: connected to host "smtp.gmail.com", port: 465
+
+EHLO falcon
+250-mx.google.com at your service, [187.58.101.250]
+250-SIZE 35651584
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH
+250 ENHANCEDSTATUSCODES
+DEBUG SMTP: Found extension "SIZE", arg "35651584"
+DEBUG SMTP: Found extension "8BITMIME", arg ""
+DEBUG SMTP: Found extension "AUTH", arg "LOGIN PLAIN XOAUTH"
+DEBUG SMTP: Found extension "ENHANCEDSTATUSCODES", arg ""
+DEBUG SMTP: Attempt to authenticate
+DEBUG SMTP: check mechanisms: LOGIN PLAIN DIGEST-MD5 NTLM 
+AUTH LOGIN
+334 VXNlcm5hbWU6
+YXRpbGEudWZycGVAZ21haWwuY29t
+334 UGFzc3dvcmQ6
+YXQxODA5ODM=
+235 2.7.0 Accepted
+DEBUG SMTP: use8bit false
+MAIL FROM:<atila.ufrpe@gmail.com>
+250 2.1.0 OK v2sm6452596ybh.4
+RCPT TO:<ccs_oliveira@hotmail.com>
+250 2.1.5 OK v2sm6452596ybh.4
+DEBUG SMTP: Verified Addresses
+DEBUG SMTP:   "ccs_oliveira@hotmail.com" <ccs_oliveira@hotmail.com>
+DATA
+354  Go ahead v2sm6452596ybh.4
+Date: Fri, 11 Jun 2010 00:12:46 -0300 (GMT-03:00)
+From: "atila.ufrpe@gmail.com" <atila.ufrpe@gmail.com>
+To: "ccs_oliveira@hotmail.com" <ccs_oliveira@hotmail.com>
+Message-ID: <26357574.16.1276225966906.JavaMail.atila@falcon>
+Subject: Nota da atividade
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Ol=E1 Carla Cristina Santos Ferreira,
+sua nota Exerc=EDcio 3 - Hardware de Computadores foi 10.0.
+
+Atila Bezerra
+disciplina Elementos de Inform=E1tica - UFRPE
+.
+250 2.0.0 OK 1276225973 v2sm6452596ybh.4
+QUIT
+221 2.0.0 closing connection v2sm6452596ybh.4
+Cleber Ricardo Saturnino dos Santos
+DEBUG: JavaMail version 1.4.3
+DEBUG: successfully loaded resource: /META-INF/javamail.default.providers
+DEBUG: Tables of loaded providers
+DEBUG: Providers Listed By Class Name: {com.sun.mail.smtp.SMTPSSLTransport=javax.mail.Provider[TRANSPORT,smtps,com.sun.mail.smtp.SMTPSSLTransport,Sun Microsystems, Inc], com.sun.mail.smtp.SMTPTransport=javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Sun Microsystems, Inc], com.sun.mail.imap.IMAPSSLStore=javax.mail.Provider[STORE,imaps,com.sun.mail.imap.IMAPSSLStore,Sun Microsystems, Inc], com.sun.mail.pop3.POP3SSLStore=javax.mail.Provider[STORE,pop3s,com.sun.mail.pop3.POP3SSLStore,Sun Microsystems, Inc], com.sun.mail.imap.IMAPStore=javax.mail.Provider[STORE,imap,com.sun.mail.imap.IMAPStore,Sun Microsystems, Inc], com.sun.mail.pop3.POP3Store=javax.mail.Provider[STORE,pop3,com.sun.mail.pop3.POP3Store,Sun Microsystems, Inc]}
+DEBUG: Providers Listed By Protocol: {imaps=javax.mail.Provider[STORE,imaps,com.sun.mail.imap.IMAPSSLStore,Sun Microsystems, Inc], imap=javax.mail.Provider[STORE,imap,com.sun.mail.imap.IMAPStore,Sun Microsystems, Inc], smtps=javax.mail.Provider[TRANSPORT,smtps,com.sun.mail.smtp.SMTPSSLTransport,Sun Microsystems, Inc], pop3=javax.mail.Provider[STORE,pop3,com.sun.mail.pop3.POP3Store,Sun Microsystems, Inc], pop3s=javax.mail.Provider[STORE,pop3s,com.sun.mail.pop3.POP3SSLStore,Sun Microsystems, Inc], smtp=javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Sun Microsystems, Inc]}
+DEBUG: successfully loaded resource: /META-INF/javamail.default.address.map
+DEBUG: getProvider() returning javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Sun Microsystems, Inc]
+DEBUG SMTP: useEhlo true, useAuth true
+DEBUG SMTP: useEhlo true, useAuth true
+DEBUG SMTP: trying to connect to host "smtp.gmail.com", port 465, isSSL false
+220 mx.google.com ESMTP j3sm6405864ybe.43
+DEBUG SMTP: connected to host "smtp.gmail.com", port: 465
+
+EHLO falcon
+250-mx.google.com at your service, [187.58.101.250]
+250-SIZE 35651584
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH
+250 ENHANCEDSTATUSCODES
+DEBUG SMTP: Found extension "SIZE", arg "35651584"
+DEBUG SMTP: Found extension "8BITMIME", arg ""
+DEBUG SMTP: Found extension "AUTH", arg "LOGIN PLAIN XOAUTH"
+DEBUG SMTP: Found extension "ENHANCEDSTATUSCODES", arg ""
+DEBUG SMTP: Attempt to authenticate
+DEBUG SMTP: check mechanisms: LOGIN PLAIN DIGEST-MD5 NTLM 
+AUTH LOGIN
+334 VXNlcm5hbWU6
+YXRpbGEudWZycGVAZ21haWwuY29t
+334 UGFzc3dvcmQ6
+YXQxODA5ODM=
+235 2.7.0 Accepted
+DEBUG SMTP: use8bit false
+MAIL FROM:<atila.ufrpe@gmail.com>
+250 2.1.0 OK j3sm6405864ybe.43
+RCPT TO:<clebersaturnino@yahoo.com.br>
+250 2.1.5 OK j3sm6405864ybe.43
+DEBUG SMTP: Verified Addresses
+DEBUG SMTP:   "clebersaturnino@yahoo.com.br" <clebersaturnino@yahoo.com.br>
+DATA
+354  Go ahead j3sm6405864ybe.43
+Date: Fri, 11 Jun 2010 00:12:53 -0300 (GMT-03:00)
+From: "atila.ufrpe@gmail.com" <atila.ufrpe@gmail.com>
+To: "clebersaturnino@yahoo.com.br" <clebersaturnino@yahoo.com.br>
+Message-ID: <7802158.17.1276225973968.JavaMail.atila@falcon>
+Subject: Nota da atividade
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Ol=E1 Cleber Ricardo Saturnino dos Santos,
+sua nota Exerc=EDcio 3 - Hardware de Computadores foi 10.0.
+
+Atila Bezerra
+disciplina Elementos de Inform=E1tica - UFRPE
+.
+250 2.0.0 OK 1276225979 j3sm6405864ybe.43
+QUIT
+221 2.0.0 closing connection j3sm6405864ybe.43
+Local address contains control or whitespace
+Jaciana Barros
+DEBUG: JavaMail version 1.4.3
+DEBUG: successfully loaded resource: /META-INF/javamail.default.providers
+DEBUG: Tables of loaded providers
+DEBUG: Providers Listed By Class Name: {com.sun.mail.smtp.SMTPSSLTransport=javax.mail.Provider[TRANSPORT,smtps,com.sun.mail.smtp.SMTPSSLTransport,Sun Microsystems, Inc], com.sun.mail.smtp.SMTPTransport=javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Sun Microsystems, Inc], com.sun.mail.imap.IMAPSSLStore=javax.mail.Provider[STORE,imaps,com.sun.mail.imap.IMAPSSLStore,Sun Microsystems, Inc], com.sun.mail.pop3.POP3SSLStore=javax.mail.Provider[STORE,pop3s,com.sun.mail.pop3.POP3SSLStore,Sun Microsystems, Inc], com.sun.mail.imap.IMAPStore=javax.mail.Provider[STORE,imap,com.sun.mail.imap.IMAPStore,Sun Microsystems, Inc], com.sun.mail.pop3.POP3Store=javax.mail.Provider[STORE,pop3,com.sun.mail.pop3.POP3Store,Sun Microsystems, Inc]}
+DEBUG: Providers Listed By Protocol: {imaps=javax.mail.Provider[STORE,imaps,com.sun.mail.imap.IMAPSSLStore,Sun Microsystems, Inc], imap=javax.mail.Provider[STORE,imap,com.sun.mail.imap.IMAPStore,Sun Microsystems, Inc], smtps=javax.mail.Provider[TRANSPORT,smtps,com.sun.mail.smtp.SMTPSSLTransport,Sun Microsystems, Inc], pop3=javax.mail.Provider[STORE,pop3,com.sun.mail.pop3.POP3Store,Sun Microsystems, Inc], pop3s=javax.mail.Provider[STORE,pop3s,com.sun.mail.pop3.POP3SSLStore,Sun Microsystems, Inc], smtp=javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Sun Microsystems, Inc]}
+DEBUG: successfully loaded resource: /META-INF/javamail.default.address.map
+DEBUG: getProvider() returning javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Sun Microsystems, Inc]
+DEBUG SMTP: useEhlo true, useAuth true
+DEBUG SMTP: useEhlo true, useAuth true
+DEBUG SMTP: trying to connect to host "smtp.gmail.com", port 465, isSSL false
+220 mx.google.com ESMTP w3sm6419701ybi.33
+DEBUG SMTP: connected to host "smtp.gmail.com", port: 465
+
+EHLO falcon
+250-mx.google.com at your service, [187.58.101.250]
+250-SIZE 35651584
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH
+250 ENHANCEDSTATUSCODES
+DEBUG SMTP: Found extension "SIZE", arg "35651584"
+DEBUG SMTP: Found extension "8BITMIME", arg ""
+DEBUG SMTP: Found extension "AUTH", arg "LOGIN PLAIN XOAUTH"
+DEBUG SMTP: Found extension "ENHANCEDSTATUSCODES", arg ""
+DEBUG SMTP: Attempt to authenticate
+DEBUG SMTP: check mechanisms: LOGIN PLAIN DIGEST-MD5 NTLM 
+AUTH LOGIN
+334 VXNlcm5hbWU6
+YXRpbGEudWZycGVAZ21haWwuY29t
+334 UGFzc3dvcmQ6
+YXQxODA5ODM=
+235 2.7.0 Accepted
+DEBUG SMTP: use8bit false
+MAIL FROM:<atila.ufrpe@gmail.com>
+250 2.1.0 OK w3sm6419701ybi.33
+RCPT TO:<jaciana.j@hotmail.com>
+250 2.1.5 OK w3sm6419701ybi.33
+DEBUG SMTP: Verified Addresses
+DEBUG SMTP:   "jaciana.j@hotmail.com" <jaciana.j@hotmail.com>
+DATA
+354  Go ahead w3sm6419701ybi.33
+Date: Fri, 11 Jun 2010 00:13:00 -0300 (GMT-03:00)
+From: "atila.ufrpe@gmail.com" <atila.ufrpe@gmail.com>
+To: "jaciana.j@hotmail.com" <jaciana.j@hotmail.com>
+Message-ID: <9690924.18.1276225980046.JavaMail.atila@falcon>
+Subject: Nota da atividade
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Ol=E1 Jaciana Barros,
+sua nota Exerc=EDcio 3 - Hardware de Computadores foi 9.0.
+
+Atila Bezerra
+disciplina Elementos de Inform=E1tica - UFRPE
+.
+250 2.0.0 OK 1276225985 w3sm6419701ybi.33
+QUIT
+221 2.0.0 closing connection w3sm6419701ybi.33
+FRANCISCO ALCIDES DA SILVA
+DEBUG: JavaMail version 1.4.3
+DEBUG: successfully loaded resource: /META-INF/javamail.default.providers
+DEBUG: Tables of loaded providers
+DEBUG: Providers Listed By Class Name: {com.sun.mail.smtp.SMTPSSLTransport=javax.mail.Provider[TRANSPORT,smtps,com.sun.mail.smtp.SMTPSSLTransport,Sun Microsystems, Inc], com.sun.mail.smtp.SMTPTransport=javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Sun Microsystems, Inc], com.sun.mail.imap.IMAPSSLStore=javax.mail.Provider[STORE,imaps,com.sun.mail.imap.IMAPSSLStore,Sun Microsystems, Inc], com.sun.mail.pop3.POP3SSLStore=javax.mail.Provider[STORE,pop3s,com.sun.mail.pop3.POP3SSLStore,Sun Microsystems, Inc], com.sun.mail.imap.IMAPStore=javax.mail.Provider[STORE,imap,com.sun.mail.imap.IMAPStore,Sun Microsystems, Inc], com.sun.mail.pop3.POP3Store=javax.mail.Provider[STORE,pop3,com.sun.mail.pop3.POP3Store,Sun Microsystems, Inc]}
+DEBUG: Providers Listed By Protocol: {imaps=javax.mail.Provider[STORE,imaps,com.sun.mail.imap.IMAPSSLStore,Sun Microsystems, Inc], imap=javax.mail.Provider[STORE,imap,com.sun.mail.imap.IMAPStore,Sun Microsystems, Inc], smtps=javax.mail.Provider[TRANSPORT,smtps,com.sun.mail.smtp.SMTPSSLTransport,Sun Microsystems, Inc], pop3=javax.mail.Provider[STORE,pop3,com.sun.mail.pop3.POP3Store,Sun Microsystems, Inc], pop3s=javax.mail.Provider[STORE,pop3s,com.sun.mail.pop3.POP3SSLStore,Sun Microsystems, Inc], smtp=javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Sun Microsystems, Inc]}
+DEBUG: successfully loaded resource: /META-INF/javamail.default.address.map
+DEBUG: getProvider() returning javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Sun Microsystems, Inc]
+DEBUG SMTP: useEhlo true, useAuth true
+DEBUG SMTP: useEhlo true, useAuth true
+DEBUG SMTP: trying to connect to host "smtp.gmail.com", port 465, isSSL false
+220 mx.google.com ESMTP v2sm6411518ybe.47
+DEBUG SMTP: connected to host "smtp.gmail.com", port: 465
+
+EHLO falcon
+250-mx.google.com at your service, [187.58.101.250]
+250-SIZE 35651584
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH
+250 ENHANCEDSTATUSCODES
+DEBUG SMTP: Found extension "SIZE", arg "35651584"
+DEBUG SMTP: Found extension "8BITMIME", arg ""
+DEBUG SMTP: Found extension "AUTH", arg "LOGIN PLAIN XOAUTH"
+DEBUG SMTP: Found extension "ENHANCEDSTATUSCODES", arg ""
+DEBUG SMTP: Attempt to authenticate
+DEBUG SMTP: check mechanisms: LOGIN PLAIN DIGEST-MD5 NTLM 
+AUTH LOGIN
+334 VXNlcm5hbWU6
+YXRpbGEudWZycGVAZ21haWwuY29t
+334 UGFzc3dvcmQ6
+YXQxODA5ODM=
+235 2.7.0 Accepted
+DEBUG SMTP: use8bit false
+MAIL FROM:<atila.ufrpe@gmail.com>
+250 2.1.0 OK v2sm6411518ybe.47
+RCPT TO:<f_alcides@hotmail.com>
+250 2.1.5 OK v2sm6411518ybe.47
+DEBUG SMTP: Verified Addresses
+DEBUG SMTP:   "f_alcides@hotmail.com" <f_alcides@hotmail.com>
+DATA
+354  Go ahead v2sm6411518ybe.47
+Date: Fri, 11 Jun 2010 00:13:06 -0300 (GMT-03:00)
+From: "atila.ufrpe@gmail.com" <atila.ufrpe@gmail.com>
+To: "f_alcides@hotmail.com" <f_alcides@hotmail.com>
+Message-ID: <24027753.19.1276225986359.JavaMail.atila@falcon>
+Subject: Nota da atividade
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Ol=E1 FRANCISCO ALCIDES DA SILVA,
+sua nota Exerc=EDcio 3 - Hardware de Computadores foi 10.0.
+
+Atila Bezerra
+disciplina Elementos de Inform=E1tica - UFRPE
+.
+250 2.0.0 OK 1276225992 v2sm6411518ybe.47
+QUIT
+221 2.0.0 closing connection v2sm6411518ybe.47
+Moisés da Silva Cavalcanti
+DEBUG: JavaMail version 1.4.3
+DEBUG: successfully loaded resource: /META-INF/javamail.default.providers
+DEBUG: Tables of loaded providers
+DEBUG: Providers Listed By Class Name: {com.sun.mail.smtp.SMTPSSLTransport=javax.mail.Provider[TRANSPORT,smtps,com.sun.mail.smtp.SMTPSSLTransport,Sun Microsystems, Inc], com.sun.mail.smtp.SMTPTransport=javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Sun Microsystems, Inc], com.sun.mail.imap.IMAPSSLStore=javax.mail.Provider[STORE,imaps,com.sun.mail.imap.IMAPSSLStore,Sun Microsystems, Inc], com.sun.mail.pop3.POP3SSLStore=javax.mail.Provider[STORE,pop3s,com.sun.mail.pop3.POP3SSLStore,Sun Microsystems, Inc], com.sun.mail.imap.IMAPStore=javax.mail.Provider[STORE,imap,com.sun.mail.imap.IMAPStore,Sun Microsystems, Inc], com.sun.mail.pop3.POP3Store=javax.mail.Provider[STORE,pop3,com.sun.mail.pop3.POP3Store,Sun Microsystems, Inc]}
+DEBUG: Providers Listed By Protocol: {imaps=javax.mail.Provider[STORE,imaps,com.sun.mail.imap.IMAPSSLStore,Sun Microsystems, Inc], imap=javax.mail.Provider[STORE,imap,com.sun.mail.imap.IMAPStore,Sun Microsystems, Inc], smtps=javax.mail.Provider[TRANSPORT,smtps,com.sun.mail.smtp.SMTPSSLTransport,Sun Microsystems, Inc], pop3=javax.mail.Provider[STORE,pop3,com.sun.mail.pop3.POP3Store,Sun Microsystems, Inc], pop3s=javax.mail.Provider[STORE,pop3s,com.sun.mail.pop3.POP3SSLStore,Sun Microsystems, Inc], smtp=javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Sun Microsystems, Inc]}
+DEBUG: successfully loaded resource: /META-INF/javamail.default.address.map
+DEBUG: getProvider() returning javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Sun Microsystems, Inc]
+DEBUG SMTP: useEhlo true, useAuth true
+DEBUG SMTP: useEhlo true, useAuth true
+DEBUG SMTP: trying to connect to host "smtp.gmail.com", port 465, isSSL false
+220 mx.google.com ESMTP u1sm6421148ybe.32
+DEBUG SMTP: connected to host "smtp.gmail.com", port: 465
+
+EHLO falcon
+250-mx.google.com at your service, [187.58.101.250]
+250-SIZE 35651584
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH
+250 ENHANCEDSTATUSCODES
+DEBUG SMTP: Found extension "SIZE", arg "35651584"
+DEBUG SMTP: Found extension "8BITMIME", arg ""
+DEBUG SMTP: Found extension "AUTH", arg "LOGIN PLAIN XOAUTH"
+DEBUG SMTP: Found extension "ENHANCEDSTATUSCODES", arg ""
+DEBUG SMTP: Attempt to authenticate
+DEBUG SMTP: check mechanisms: LOGIN PLAIN DIGEST-MD5 NTLM 
+AUTH LOGIN
+334 VXNlcm5hbWU6
+YXRpbGEudWZycGVAZ21haWwuY29t
+334 UGFzc3dvcmQ6
+YXQxODA5ODM=
+235 2.7.0 Accepted
+DEBUG SMTP: use8bit false
+MAIL FROM:<atila.ufrpe@gmail.com>
+250 2.1.0 OK u1sm6421148ybe.32
+RCPT TO:<mozartfera@yahoo.com.br>
+250 2.1.5 OK u1sm6421148ybe.32
+DEBUG SMTP: Verified Addresses
+DEBUG SMTP:   "mozartfera@yahoo.com.br" <mozartfera@yahoo.com.br>
+DATA
+354  Go ahead u1sm6421148ybe.32
+Date: Fri, 11 Jun 2010 00:13:12 -0300 (GMT-03:00)
+From: "atila.ufrpe@gmail.com" <atila.ufrpe@gmail.com>
+To: "mozartfera@yahoo.com.br" <mozartfera@yahoo.com.br>
+Message-ID: <189219.20.1276225992781.JavaMail.atila@falcon>
+Subject: Nota da atividade
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Ol=E1 Mois=E9s da Silva Cavalcanti,
+sua nota Exerc=EDcio 3 - Hardware de Computadores foi 7.0.
+
+Atila Bezerra
+disciplina Elementos de Inform=E1tica - UFRPE
+.
+250 2.0.0 OK 1276225998 u1sm6421148ybe.32
+QUIT
+221 2.0.0 closing connection u1sm6421148ybe.32
+Alex Lins Ferreira
+DEBUG: JavaMail version 1.4.3
+DEBUG: successfully loaded resource: /META-INF/javamail.default.providers
+DEBUG: Tables of loaded providers
+DEBUG: Providers Listed By Class Name: {com.sun.mail.smtp.SMTPSSLTransport=javax.mail.Provider[TRANSPORT,smtps,com.sun.mail.smtp.SMTPSSLTransport,Sun Microsystems, Inc], com.sun.mail.smtp.SMTPTransport=javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Sun Microsystems, Inc], com.sun.mail.imap.IMAPSSLStore=javax.mail.Provider[STORE,imaps,com.sun.mail.imap.IMAPSSLStore,Sun Microsystems, Inc], com.sun.mail.pop3.POP3SSLStore=javax.mail.Provider[STORE,pop3s,com.sun.mail.pop3.POP3SSLStore,Sun Microsystems, Inc], com.sun.mail.imap.IMAPStore=javax.mail.Provider[STORE,imap,com.sun.mail.imap.IMAPStore,Sun Microsystems, Inc], com.sun.mail.pop3.POP3Store=javax.mail.Provider[STORE,pop3,com.sun.mail.pop3.POP3Store,Sun Microsystems, Inc]}
+DEBUG: Providers Listed By Protocol: {imaps=javax.mail.Provider[STORE,imaps,com.sun.mail.imap.IMAPSSLStore,Sun Microsystems, Inc], imap=javax.mail.Provider[STORE,imap,com.sun.mail.imap.IMAPStore,Sun Microsystems, Inc], smtps=javax.mail.Provider[TRANSPORT,smtps,com.sun.mail.smtp.SMTPSSLTransport,Sun Microsystems, Inc], pop3=javax.mail.Provider[STORE,pop3,com.sun.mail.pop3.POP3Store,Sun Microsystems, Inc], pop3s=javax.mail.Provider[STORE,pop3s,com.sun.mail.pop3.POP3SSLStore,Sun Microsystems, Inc], smtp=javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Sun Microsystems, Inc]}
+DEBUG: successfully loaded resource: /META-INF/javamail.default.address.map
+DEBUG: getProvider() returning javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Sun Microsystems, Inc]
+DEBUG SMTP: useEhlo true, useAuth true
+DEBUG SMTP: useEhlo true, useAuth true
+DEBUG SMTP: trying to connect to host "smtp.gmail.com", port 465, isSSL false
+220 mx.google.com ESMTP u8sm6449055ybe.6
+DEBUG SMTP: connected to host "smtp.gmail.com", port: 465
+
+EHLO falcon
+250-mx.google.com at your service, [187.58.101.250]
+250-SIZE 35651584
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH
+250 ENHANCEDSTATUSCODES
+DEBUG SMTP: Found extension "SIZE", arg "35651584"
+DEBUG SMTP: Found extension "8BITMIME", arg ""
+DEBUG SMTP: Found extension "AUTH", arg "LOGIN PLAIN XOAUTH"
+DEBUG SMTP: Found extension "ENHANCEDSTATUSCODES", arg ""
+DEBUG SMTP: Attempt to authenticate
+DEBUG SMTP: check mechanisms: LOGIN PLAIN DIGEST-MD5 NTLM 
+AUTH LOGIN
+334 VXNlcm5hbWU6
+YXRpbGEudWZycGVAZ21haWwuY29t
+334 UGFzc3dvcmQ6
+YXQxODA5ODM=
+235 2.7.0 Accepted
+DEBUG SMTP: use8bit false
+MAIL FROM:<atila.ufrpe@gmail.com>
+250 2.1.0 OK u8sm6449055ybe.6
+RCPT TO:<aflins@hotmail.com>
+250 2.1.5 OK u8sm6449055ybe.6
+DEBUG SMTP: Verified Addresses
+DEBUG SMTP:   "aflins@hotmail.com" <aflins@hotmail.com>
+DATA
+354  Go ahead u8sm6449055ybe.6
+Date: Fri, 11 Jun 2010 00:13:19 -0300 (GMT-03:00)
+From: "atila.ufrpe@gmail.com" <atila.ufrpe@gmail.com>
+To: "aflins@hotmail.com" <aflins@hotmail.com>
+Message-ID: <32708178.21.1276225999109.JavaMail.atila@falcon>
+Subject: Nota da atividade
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Ol=E1 Alex Lins Ferreira,
+sua nota Exerc=EDcio 3 - Hardware de Computadores foi 9.0.
+
+Atila Bezerra
+disciplina Elementos de Inform=E1tica - UFRPE
+.
+250 2.0.0 OK 1276226005 u8sm6449055ybe.6
+QUIT
+221 2.0.0 closing connection u8sm6449055ybe.6
+Valdizia Xavier Duarte
+DEBUG: JavaMail version 1.4.3
+DEBUG: successfully loaded resource: /META-INF/javamail.default.providers
+DEBUG: Tables of loaded providers
+DEBUG: Providers Listed By Class Name: {com.sun.mail.smtp.SMTPSSLTransport=javax.mail.Provider[TRANSPORT,smtps,com.sun.mail.smtp.SMTPSSLTransport,Sun Microsystems, Inc], com.sun.mail.smtp.SMTPTransport=javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Sun Microsystems, Inc], com.sun.mail.imap.IMAPSSLStore=javax.mail.Provider[STORE,imaps,com.sun.mail.imap.IMAPSSLStore,Sun Microsystems, Inc], com.sun.mail.pop3.POP3SSLStore=javax.mail.Provider[STORE,pop3s,com.sun.mail.pop3.POP3SSLStore,Sun Microsystems, Inc], com.sun.mail.imap.IMAPStore=javax.mail.Provider[STORE,imap,com.sun.mail.imap.IMAPStore,Sun Microsystems, Inc], com.sun.mail.pop3.POP3Store=javax.mail.Provider[STORE,pop3,com.sun.mail.pop3.POP3Store,Sun Microsystems, Inc]}
+DEBUG: Providers Listed By Protocol: {imaps=javax.mail.Provider[STORE,imaps,com.sun.mail.imap.IMAPSSLStore,Sun Microsystems, Inc], imap=javax.mail.Provider[STORE,imap,com.sun.mail.imap.IMAPStore,Sun Microsystems, Inc], smtps=javax.mail.Provider[TRANSPORT,smtps,com.sun.mail.smtp.SMTPSSLTransport,Sun Microsystems, Inc], pop3=javax.mail.Provider[STORE,pop3,com.sun.mail.pop3.POP3Store,Sun Microsystems, Inc], pop3s=javax.mail.Provider[STORE,pop3s,com.sun.mail.pop3.POP3SSLStore,Sun Microsystems, Inc], smtp=javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Sun Microsystems, Inc]}
+DEBUG: successfully loaded resource: /META-INF/javamail.default.address.map
+DEBUG: getProvider() returning javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Sun Microsystems, Inc]
+DEBUG SMTP: useEhlo true, useAuth true
+DEBUG SMTP: useEhlo true, useAuth true
+DEBUG SMTP: trying to connect to host "smtp.gmail.com", port 465, isSSL false
+220 mx.google.com ESMTP p37sm6445439ybk.14
+DEBUG SMTP: connected to host "smtp.gmail.com", port: 465
+
+EHLO falcon
+250-mx.google.com at your service, [187.58.101.250]
+250-SIZE 35651584
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH
+250 ENHANCEDSTATUSCODES
+DEBUG SMTP: Found extension "SIZE", arg "35651584"
+DEBUG SMTP: Found extension "8BITMIME", arg ""
+DEBUG SMTP: Found extension "AUTH", arg "LOGIN PLAIN XOAUTH"
+DEBUG SMTP: Found extension "ENHANCEDSTATUSCODES", arg ""
+DEBUG SMTP: Attempt to authenticate
+DEBUG SMTP: check mechanisms: LOGIN PLAIN DIGEST-MD5 NTLM 
+AUTH LOGIN
+334 VXNlcm5hbWU6
+YXRpbGEudWZycGVAZ21haWwuY29t
+334 UGFzc3dvcmQ6
+YXQxODA5ODM=
+235 2.7.0 Accepted
+DEBUG SMTP: use8bit false
+MAIL FROM:<atila.ufrpe@gmail.com>
+250 2.1.0 OK p37sm6445439ybk.14
+RCPT TO:<valdiziaduarte@hotmail.com>
+250 2.1.5 OK p37sm6445439ybk.14
+DEBUG SMTP: Verified Addresses
+DEBUG SMTP:   "valdiziaduarte@hotmail.com" <valdiziaduarte@hotmail.com>
+DATA
+354  Go ahead p37sm6445439ybk.14
+Date: Fri, 11 Jun 2010 00:13:26 -0300 (GMT-03:00)
+From: "atila.ufrpe@gmail.com" <atila.ufrpe@gmail.com>
+To: "valdiziaduarte@hotmail.com" <valdiziaduarte@hotmail.com>
+Message-ID: <24737685.22.1276226006421.JavaMail.atila@falcon>
+Subject: Nota da atividade
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Ol=E1 Valdizia Xavier Duarte,
+sua nota Exerc=EDcio 3 - Hardware de Computadores foi 10.0.
+
+Atila Bezerra
+disciplina Elementos de Inform=E1tica - UFRPE
+.
+250 2.0.0 OK 1276226012 p37sm6445439ybk.14
+QUIT
+221 2.0.0 closing connection p37sm6445439ybk.14
+Josinéa Alexandre Marinho
+DEBUG: JavaMail version 1.4.3
+DEBUG: successfully loaded resource: /META-INF/javamail.default.providers
+DEBUG: Tables of loaded providers
+DEBUG: Providers Listed By Class Name: {com.sun.mail.smtp.SMTPSSLTransport=javax.mail.Provider[TRANSPORT,smtps,com.sun.mail.smtp.SMTPSSLTransport,Sun Microsystems, Inc], com.sun.mail.smtp.SMTPTransport=javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Sun Microsystems, Inc], com.sun.mail.imap.IMAPSSLStore=javax.mail.Provider[STORE,imaps,com.sun.mail.imap.IMAPSSLStore,Sun Microsystems, Inc], com.sun.mail.pop3.POP3SSLStore=javax.mail.Provider[STORE,pop3s,com.sun.mail.pop3.POP3SSLStore,Sun Microsystems, Inc], com.sun.mail.imap.IMAPStore=javax.mail.Provider[STORE,imap,com.sun.mail.imap.IMAPStore,Sun Microsystems, Inc], com.sun.mail.pop3.POP3Store=javax.mail.Provider[STORE,pop3,com.sun.mail.pop3.POP3Store,Sun Microsystems, Inc]}
+DEBUG: Providers Listed By Protocol: {imaps=javax.mail.Provider[STORE,imaps,com.sun.mail.imap.IMAPSSLStore,Sun Microsystems, Inc], imap=javax.mail.Provider[STORE,imap,com.sun.mail.imap.IMAPStore,Sun Microsystems, Inc], smtps=javax.mail.Provider[TRANSPORT,smtps,com.sun.mail.smtp.SMTPSSLTransport,Sun Microsystems, Inc], pop3=javax.mail.Provider[STORE,pop3,com.sun.mail.pop3.POP3Store,Sun Microsystems, Inc], pop3s=javax.mail.Provider[STORE,pop3s,com.sun.mail.pop3.POP3SSLStore,Sun Microsystems, Inc], smtp=javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Sun Microsystems, Inc]}
+DEBUG: successfully loaded resource: /META-INF/javamail.default.address.map
+DEBUG: getProvider() returning javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Sun Microsystems, Inc]
+DEBUG SMTP: useEhlo true, useAuth true
+DEBUG SMTP: useEhlo true, useAuth true
+DEBUG SMTP: trying to connect to host "smtp.gmail.com", port 465, isSSL false
+220 mx.google.com ESMTP v2sm6457358ybh.4
+DEBUG SMTP: connected to host "smtp.gmail.com", port: 465
+
+EHLO falcon
+250-mx.google.com at your service, [187.58.101.250]
+250-SIZE 35651584
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH
+250 ENHANCEDSTATUSCODES
+DEBUG SMTP: Found extension "SIZE", arg "35651584"
+DEBUG SMTP: Found extension "8BITMIME", arg ""
+DEBUG SMTP: Found extension "AUTH", arg "LOGIN PLAIN XOAUTH"
+DEBUG SMTP: Found extension "ENHANCEDSTATUSCODES", arg ""
+DEBUG SMTP: Attempt to authenticate
+DEBUG SMTP: check mechanisms: LOGIN PLAIN DIGEST-MD5 NTLM 
+AUTH LOGIN
+334 VXNlcm5hbWU6
+YXRpbGEudWZycGVAZ21haWwuY29t
+334 UGFzc3dvcmQ6
+YXQxODA5ODM=
+235 2.7.0 Accepted
+DEBUG SMTP: use8bit false
+MAIL FROM:<atila.ufrpe@gmail.com>
+250 2.1.0 OK v2sm6457358ybh.4
+RCPT TO:<josinnea@yahoo.com.br>
+250 2.1.5 OK v2sm6457358ybh.4
+DEBUG SMTP: Verified Addresses
+DEBUG SMTP:   "josinnea@yahoo.com.br" <josinnea@yahoo.com.br>
+DATA
+354  Go ahead v2sm6457358ybh.4
+Date: Fri, 11 Jun 2010 00:13:32 -0300 (GMT-03:00)
+From: "atila.ufrpe@gmail.com" <atila.ufrpe@gmail.com>
+To: "josinnea@yahoo.com.br" <josinnea@yahoo.com.br>
+Message-ID: <25358187.23.1276226012828.JavaMail.atila@falcon>
+Subject: Nota da atividade
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Ol=E1 Josin=E9a Alexandre Marinho,
+sua nota Exerc=EDcio 3 - Hardware de Computadores foi 10.0.
+
+Atila Bezerra
+disciplina Elementos de Inform=E1tica - UFRPE
+.
+250 2.0.0 OK 1276226018 v2sm6457358ybh.4
+QUIT
+221 2.0.0 closing connection v2sm6457358ybh.4
+erivan josé dos santos
+DEBUG: JavaMail version 1.4.3
+DEBUG: successfully loaded resource: /META-INF/javamail.default.providers
+DEBUG: Tables of loaded providers
+DEBUG: Providers Listed By Class Name: {com.sun.mail.smtp.SMTPSSLTransport=javax.mail.Provider[TRANSPORT,smtps,com.sun.mail.smtp.SMTPSSLTransport,Sun Microsystems, Inc], com.sun.mail.smtp.SMTPTransport=javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Sun Microsystems, Inc], com.sun.mail.imap.IMAPSSLStore=javax.mail.Provider[STORE,imaps,com.sun.mail.imap.IMAPSSLStore,Sun Microsystems, Inc], com.sun.mail.pop3.POP3SSLStore=javax.mail.Provider[STORE,pop3s,com.sun.mail.pop3.POP3SSLStore,Sun Microsystems, Inc], com.sun.mail.imap.IMAPStore=javax.mail.Provider[STORE,imap,com.sun.mail.imap.IMAPStore,Sun Microsystems, Inc], com.sun.mail.pop3.POP3Store=javax.mail.Provider[STORE,pop3,com.sun.mail.pop3.POP3Store,Sun Microsystems, Inc]}
+DEBUG: Providers Listed By Protocol: {imaps=javax.mail.Provider[STORE,imaps,com.sun.mail.imap.IMAPSSLStore,Sun Microsystems, Inc], imap=javax.mail.Provider[STORE,imap,com.sun.mail.imap.IMAPStore,Sun Microsystems, Inc], smtps=javax.mail.Provider[TRANSPORT,smtps,com.sun.mail.smtp.SMTPSSLTransport,Sun Microsystems, Inc], pop3=javax.mail.Provider[STORE,pop3,com.sun.mail.pop3.POP3Store,Sun Microsystems, Inc], pop3s=javax.mail.Provider[STORE,pop3s,com.sun.mail.pop3.POP3SSLStore,Sun Microsystems, Inc], smtp=javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Sun Microsystems, Inc]}
+DEBUG: successfully loaded resource: /META-INF/javamail.default.address.map
+DEBUG: getProvider() returning javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Sun Microsystems, Inc]
+DEBUG SMTP: useEhlo true, useAuth true
+DEBUG SMTP: useEhlo true, useAuth true
+DEBUG SMTP: trying to connect to host "smtp.gmail.com", port 465, isSSL false
+220 mx.google.com ESMTP j3sm6441177ybe.19
+DEBUG SMTP: connected to host "smtp.gmail.com", port: 465
+
+EHLO falcon
+250-mx.google.com at your service, [187.58.101.250]
+250-SIZE 35651584
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH
+250 ENHANCEDSTATUSCODES
+DEBUG SMTP: Found extension "SIZE", arg "35651584"
+DEBUG SMTP: Found extension "8BITMIME", arg ""
+DEBUG SMTP: Found extension "AUTH", arg "LOGIN PLAIN XOAUTH"
+DEBUG SMTP: Found extension "ENHANCEDSTATUSCODES", arg ""
+DEBUG SMTP: Attempt to authenticate
+DEBUG SMTP: check mechanisms: LOGIN PLAIN DIGEST-MD5 NTLM 
+AUTH LOGIN
+334 VXNlcm5hbWU6
+YXRpbGEudWZycGVAZ21haWwuY29t
+334 UGFzc3dvcmQ6
+YXQxODA5ODM=
+235 2.7.0 Accepted
+DEBUG SMTP: use8bit false
+MAIL FROM:<atila.ufrpe@gmail.com>
+250 2.1.0 OK j3sm6441177ybe.19
+RCPT TO:<santos.erivan@gmail.com>
+250 2.1.5 OK j3sm6441177ybe.19
+DEBUG SMTP: Verified Addresses
+DEBUG SMTP:   "santos.erivan@gmail.com" <santos.erivan@gmail.com>
+DATA
+354  Go ahead j3sm6441177ybe.19
+Date: Fri, 11 Jun 2010 00:13:39 -0300 (GMT-03:00)
+From: "atila.ufrpe@gmail.com" <atila.ufrpe@gmail.com>
+To: "santos.erivan@gmail.com" <santos.erivan@gmail.com>
+Message-ID: <20214052.24.1276226019015.JavaMail.atila@falcon>
+Subject: Nota da atividade
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Ol=E1 erivan jos=E9 dos santos,
+sua nota Exerc=EDcio 3 - Hardware de Computadores foi 10.0.
+
+Atila Bezerra
+disciplina Elementos de Inform=E1tica - UFRPE
+.
+250 2.0.0 OK 1276226024 j3sm6441177ybe.19
+QUIT
+221 2.0.0 closing connection j3sm6441177ybe.19
+SANDRA MÁRCIA PIMENTEL MOURA
+DEBUG: JavaMail version 1.4.3
+DEBUG: successfully loaded resource: /META-INF/javamail.default.providers
+DEBUG: Tables of loaded providers
+DEBUG: Providers Listed By Class Name: {com.sun.mail.smtp.SMTPSSLTransport=javax.mail.Provider[TRANSPORT,smtps,com.sun.mail.smtp.SMTPSSLTransport,Sun Microsystems, Inc], com.sun.mail.smtp.SMTPTransport=javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Sun Microsystems, Inc], com.sun.mail.imap.IMAPSSLStore=javax.mail.Provider[STORE,imaps,com.sun.mail.imap.IMAPSSLStore,Sun Microsystems, Inc], com.sun.mail.pop3.POP3SSLStore=javax.mail.Provider[STORE,pop3s,com.sun.mail.pop3.POP3SSLStore,Sun Microsystems, Inc], com.sun.mail.imap.IMAPStore=javax.mail.Provider[STORE,imap,com.sun.mail.imap.IMAPStore,Sun Microsystems, Inc], com.sun.mail.pop3.POP3Store=javax.mail.Provider[STORE,pop3,com.sun.mail.pop3.POP3Store,Sun Microsystems, Inc]}
+DEBUG: Providers Listed By Protocol: {imaps=javax.mail.Provider[STORE,imaps,com.sun.mail.imap.IMAPSSLStore,Sun Microsystems, Inc], imap=javax.mail.Provider[STORE,imap,com.sun.mail.imap.IMAPStore,Sun Microsystems, Inc], smtps=javax.mail.Provider[TRANSPORT,smtps,com.sun.mail.smtp.SMTPSSLTransport,Sun Microsystems, Inc], pop3=javax.mail.Provider[STORE,pop3,com.sun.mail.pop3.POP3Store,Sun Microsystems, Inc], pop3s=javax.mail.Provider[STORE,pop3s,com.sun.mail.pop3.POP3SSLStore,Sun Microsystems, Inc], smtp=javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Sun Microsystems, Inc]}
+DEBUG: successfully loaded resource: /META-INF/javamail.default.address.map
+DEBUG: getProvider() returning javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Sun Microsystems, Inc]
+DEBUG SMTP: useEhlo true, useAuth true
+DEBUG SMTP: useEhlo true, useAuth true
+DEBUG SMTP: trying to connect to host "smtp.gmail.com", port 465, isSSL false
+220 mx.google.com ESMTP v2sm6415535ybe.47
+DEBUG SMTP: connected to host "smtp.gmail.com", port: 465
+
+EHLO falcon
+250-mx.google.com at your service, [187.58.101.250]
+250-SIZE 35651584
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH
+250 ENHANCEDSTATUSCODES
+DEBUG SMTP: Found extension "SIZE", arg "35651584"
+DEBUG SMTP: Found extension "8BITMIME", arg ""
+DEBUG SMTP: Found extension "AUTH", arg "LOGIN PLAIN XOAUTH"
+DEBUG SMTP: Found extension "ENHANCEDSTATUSCODES", arg ""
+DEBUG SMTP: Attempt to authenticate
+DEBUG SMTP: check mechanisms: LOGIN PLAIN DIGEST-MD5 NTLM 
+AUTH LOGIN
+334 VXNlcm5hbWU6
+YXRpbGEudWZycGVAZ21haWwuY29t
+334 UGFzc3dvcmQ6
+YXQxODA5ODM=
+235 2.7.0 Accepted
+DEBUG SMTP: use8bit false
+MAIL FROM:<atila.ufrpe@gmail.com>
+250 2.1.0 OK v2sm6415535ybe.47
+RCPT TO:<moura.pe@gmail.com>
+250 2.1.5 OK v2sm6415535ybe.47
+DEBUG SMTP: Verified Addresses
+DEBUG SMTP:   "moura.pe@gmail.com" <moura.pe@gmail.com>
+DATA
+354  Go ahead v2sm6415535ybe.47
+Date: Fri, 11 Jun 2010 00:13:45 -0300 (GMT-03:00)
+From: "atila.ufrpe@gmail.com" <atila.ufrpe@gmail.com>
+To: "moura.pe@gmail.com" <moura.pe@gmail.com>
+Message-ID: <32516997.25.1276226025578.JavaMail.atila@falcon>
+Subject: Nota da atividade
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Ol=E1 SANDRA M=C1RCIA PIMENTEL MOURA,
+sua nota Exerc=EDcio 3 - Hardware de Computadores foi 10.0.
+
+Atila Bezerra
+disciplina Elementos de Inform=E1tica - UFRPE
+.
+250 2.0.0 OK 1276226030 v2sm6415535ybe.47
+QUIT
+221 2.0.0 closing connection v2sm6415535ybe.47
+Gastone Alves dos Santos
+DEBUG: JavaMail version 1.4.3
+DEBUG: successfully loaded resource: /META-INF/javamail.default.providers
+DEBUG: Tables of loaded providers
+DEBUG: Providers Listed By Class Name: {com.sun.mail.smtp.SMTPSSLTransport=javax.mail.Provider[TRANSPORT,smtps,com.sun.mail.smtp.SMTPSSLTransport,Sun Microsystems, Inc], com.sun.mail.smtp.SMTPTransport=javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Sun Microsystems, Inc], com.sun.mail.imap.IMAPSSLStore=javax.mail.Provider[STORE,imaps,com.sun.mail.imap.IMAPSSLStore,Sun Microsystems, Inc], com.sun.mail.pop3.POP3SSLStore=javax.mail.Provider[STORE,pop3s,com.sun.mail.pop3.POP3SSLStore,Sun Microsystems, Inc], com.sun.mail.imap.IMAPStore=javax.mail.Provider[STORE,imap,com.sun.mail.imap.IMAPStore,Sun Microsystems, Inc], com.sun.mail.pop3.POP3Store=javax.mail.Provider[STORE,pop3,com.sun.mail.pop3.POP3Store,Sun Microsystems, Inc]}
+DEBUG: Providers Listed By Protocol: {imaps=javax.mail.Provider[STORE,imaps,com.sun.mail.imap.IMAPSSLStore,Sun Microsystems, Inc], imap=javax.mail.Provider[STORE,imap,com.sun.mail.imap.IMAPStore,Sun Microsystems, Inc], smtps=javax.mail.Provider[TRANSPORT,smtps,com.sun.mail.smtp.SMTPSSLTransport,Sun Microsystems, Inc], pop3=javax.mail.Provider[STORE,pop3,com.sun.mail.pop3.POP3Store,Sun Microsystems, Inc], pop3s=javax.mail.Provider[STORE,pop3s,com.sun.mail.pop3.POP3SSLStore,Sun Microsystems, Inc], smtp=javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Sun Microsystems, Inc]}
+DEBUG: successfully loaded resource: /META-INF/javamail.default.address.map
+DEBUG: getProvider() returning javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Sun Microsystems, Inc]
+DEBUG SMTP: useEhlo true, useAuth true
+DEBUG SMTP: useEhlo true, useAuth true
+DEBUG SMTP: trying to connect to host "smtp.gmail.com", port 465, isSSL false
+220 mx.google.com ESMTP k2sm6411554ybj.42
+DEBUG SMTP: connected to host "smtp.gmail.com", port: 465
+
+EHLO falcon
+250-mx.google.com at your service, [187.58.101.250]
+250-SIZE 35651584
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH
+250 ENHANCEDSTATUSCODES
+DEBUG SMTP: Found extension "SIZE", arg "35651584"
+DEBUG SMTP: Found extension "8BITMIME", arg ""
+DEBUG SMTP: Found extension "AUTH", arg "LOGIN PLAIN XOAUTH"
+DEBUG SMTP: Found extension "ENHANCEDSTATUSCODES", arg ""
+DEBUG SMTP: Attempt to authenticate
+DEBUG SMTP: check mechanisms: LOGIN PLAIN DIGEST-MD5 NTLM 
+AUTH LOGIN
+334 VXNlcm5hbWU6
+YXRpbGEudWZycGVAZ21haWwuY29t
+334 UGFzc3dvcmQ6
+YXQxODA5ODM=
+235 2.7.0 Accepted
+DEBUG SMTP: use8bit false
+MAIL FROM:<atila.ufrpe@gmail.com>
+250 2.1.0 OK k2sm6411554ybj.42
+RCPT TO:<gastone@oi.com.br>
+250 2.1.5 OK k2sm6411554ybj.42
+DEBUG SMTP: Verified Addresses
+DEBUG SMTP:   "gastone@oi.com.br" <gastone@oi.com.br>
+DATA
+354  Go ahead k2sm6411554ybj.42
+Date: Fri, 11 Jun 2010 00:13:51 -0300 (GMT-03:00)
+From: "atila.ufrpe@gmail.com" <atila.ufrpe@gmail.com>
+To: "gastone@oi.com.br" <gastone@oi.com.br>
+Message-ID: <15612583.26.1276226031015.JavaMail.atila@falcon>
+Subject: Nota da atividade
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Ol=E1 Gastone Alves dos Santos,
+sua nota Exerc=EDcio 3 - Hardware de Computadores foi 10.0.
+
+Atila Bezerra
+disciplina Elementos de Inform=E1tica - UFRPE
+.
+250 2.0.0 OK 1276226036 k2sm6411554ybj.42
+QUIT
+221 2.0.0 closing connection k2sm6411554ybj.42
+Ana Paula D. Brito
+DEBUG: JavaMail version 1.4.3
+DEBUG: successfully loaded resource: /META-INF/javamail.default.providers
+DEBUG: Tables of loaded providers
+DEBUG: Providers Listed By Class Name: {com.sun.mail.smtp.SMTPSSLTransport=javax.mail.Provider[TRANSPORT,smtps,com.sun.mail.smtp.SMTPSSLTransport,Sun Microsystems, Inc], com.sun.mail.smtp.SMTPTransport=javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Sun Microsystems, Inc], com.sun.mail.imap.IMAPSSLStore=javax.mail.Provider[STORE,imaps,com.sun.mail.imap.IMAPSSLStore,Sun Microsystems, Inc], com.sun.mail.pop3.POP3SSLStore=javax.mail.Provider[STORE,pop3s,com.sun.mail.pop3.POP3SSLStore,Sun Microsystems, Inc], com.sun.mail.imap.IMAPStore=javax.mail.Provider[STORE,imap,com.sun.mail.imap.IMAPStore,Sun Microsystems, Inc], com.sun.mail.pop3.POP3Store=javax.mail.Provider[STORE,pop3,com.sun.mail.pop3.POP3Store,Sun Microsystems, Inc]}
+DEBUG: Providers Listed By Protocol: {imaps=javax.mail.Provider[STORE,imaps,com.sun.mail.imap.IMAPSSLStore,Sun Microsystems, Inc], imap=javax.mail.Provider[STORE,imap,com.sun.mail.imap.IMAPStore,Sun Microsystems, Inc], smtps=javax.mail.Provider[TRANSPORT,smtps,com.sun.mail.smtp.SMTPSSLTransport,Sun Microsystems, Inc], pop3=javax.mail.Provider[STORE,pop3,com.sun.mail.pop3.POP3Store,Sun Microsystems, Inc], pop3s=javax.mail.Provider[STORE,pop3s,com.sun.mail.pop3.POP3SSLStore,Sun Microsystems, Inc], smtp=javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Sun Microsystems, Inc]}
+DEBUG: successfully loaded resource: /META-INF/javamail.default.address.map
+DEBUG: getProvider() returning javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Sun Microsystems, Inc]
+DEBUG SMTP: useEhlo true, useAuth true
+DEBUG SMTP: useEhlo true, useAuth true
+DEBUG SMTP: trying to connect to host "smtp.gmail.com", port 465, isSSL false
+220 mx.google.com ESMTP p16sm6435866ybk.21
+DEBUG SMTP: connected to host "smtp.gmail.com", port: 465
+
+EHLO falcon
+250-mx.google.com at your service, [187.58.101.250]
+250-SIZE 35651584
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH
+250 ENHANCEDSTATUSCODES
+DEBUG SMTP: Found extension "SIZE", arg "35651584"
+DEBUG SMTP: Found extension "8BITMIME", arg ""
+DEBUG SMTP: Found extension "AUTH", arg "LOGIN PLAIN XOAUTH"
+DEBUG SMTP: Found extension "ENHANCEDSTATUSCODES", arg ""
+DEBUG SMTP: Attempt to authenticate
+DEBUG SMTP: check mechanisms: LOGIN PLAIN DIGEST-MD5 NTLM 
+AUTH LOGIN
+334 VXNlcm5hbWU6
+YXRpbGEudWZycGVAZ21haWwuY29t
+334 UGFzc3dvcmQ6
+YXQxODA5ODM=
+235 2.7.0 Accepted
+DEBUG SMTP: use8bit false
+MAIL FROM:<atila.ufrpe@gmail.com>
+250 2.1.0 OK p16sm6435866ybk.21
+RCPT TO:<aluapanabrito@gmail.com>
+250 2.1.5 OK p16sm6435866ybk.21
+DEBUG SMTP: Verified Addresses
+DEBUG SMTP:   "aluapanabrito@gmail.com" <aluapanabrito@gmail.com>
+DATA
+354  Go ahead p16sm6435866ybk.21
+Date: Fri, 11 Jun 2010 00:13:57 -0300 (GMT-03:00)
+From: "atila.ufrpe@gmail.com" <atila.ufrpe@gmail.com>
+To: "aluapanabrito@gmail.com" <aluapanabrito@gmail.com>
+Message-ID: <5569009.27.1276226037578.JavaMail.atila@falcon>
+Subject: Nota da atividade
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Ol=E1 Ana Paula D. Brito,
+sua nota Exerc=EDcio 3 - Hardware de Computadores foi 9.0.
+
+Atila Bezerra
+disciplina Elementos de Inform=E1tica - UFRPE
+.
+250 2.0.0 OK 1276226043 p16sm6435866ybk.21
+QUIT
+221 2.0.0 closing connection p16sm6435866ybk.21
+Andréa da Silva Araújo
+DEBUG: JavaMail version 1.4.3
+DEBUG: successfully loaded resource: /META-INF/javamail.default.providers
+DEBUG: Tables of loaded providers
+DEBUG: Providers Listed By Class Name: {com.sun.mail.smtp.SMTPSSLTransport=javax.mail.Provider[TRANSPORT,smtps,com.sun.mail.smtp.SMTPSSLTransport,Sun Microsystems, Inc], com.sun.mail.smtp.SMTPTransport=javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Sun Microsystems, Inc], com.sun.mail.imap.IMAPSSLStore=javax.mail.Provider[STORE,imaps,com.sun.mail.imap.IMAPSSLStore,Sun Microsystems, Inc], com.sun.mail.pop3.POP3SSLStore=javax.mail.Provider[STORE,pop3s,com.sun.mail.pop3.POP3SSLStore,Sun Microsystems, Inc], com.sun.mail.imap.IMAPStore=javax.mail.Provider[STORE,imap,com.sun.mail.imap.IMAPStore,Sun Microsystems, Inc], com.sun.mail.pop3.POP3Store=javax.mail.Provider[STORE,pop3,com.sun.mail.pop3.POP3Store,Sun Microsystems, Inc]}
+DEBUG: Providers Listed By Protocol: {imaps=javax.mail.Provider[STORE,imaps,com.sun.mail.imap.IMAPSSLStore,Sun Microsystems, Inc], imap=javax.mail.Provider[STORE,imap,com.sun.mail.imap.IMAPStore,Sun Microsystems, Inc], smtps=javax.mail.Provider[TRANSPORT,smtps,com.sun.mail.smtp.SMTPSSLTransport,Sun Microsystems, Inc], pop3=javax.mail.Provider[STORE,pop3,com.sun.mail.pop3.POP3Store,Sun Microsystems, Inc], pop3s=javax.mail.Provider[STORE,pop3s,com.sun.mail.pop3.POP3SSLStore,Sun Microsystems, Inc], smtp=javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Sun Microsystems, Inc]}
+DEBUG: successfully loaded resource: /META-INF/javamail.default.address.map
+DEBUG: getProvider() returning javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Sun Microsystems, Inc]
+DEBUG SMTP: useEhlo true, useAuth true
+DEBUG SMTP: useEhlo true, useAuth true
+DEBUG SMTP: trying to connect to host "smtp.gmail.com", port 465, isSSL false
+220 mx.google.com ESMTP p15sm6420303ybk.37
+DEBUG SMTP: connected to host "smtp.gmail.com", port: 465
+
+EHLO falcon
+250-mx.google.com at your service, [187.58.101.250]
+250-SIZE 35651584
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH
+250 ENHANCEDSTATUSCODES
+DEBUG SMTP: Found extension "SIZE", arg "35651584"
+DEBUG SMTP: Found extension "8BITMIME", arg ""
+DEBUG SMTP: Found extension "AUTH", arg "LOGIN PLAIN XOAUTH"
+DEBUG SMTP: Found extension "ENHANCEDSTATUSCODES", arg ""
+DEBUG SMTP: Attempt to authenticate
+DEBUG SMTP: check mechanisms: LOGIN PLAIN DIGEST-MD5 NTLM 
+AUTH LOGIN
+334 VXNlcm5hbWU6
+YXRpbGEudWZycGVAZ21haWwuY29t
+334 UGFzc3dvcmQ6
+YXQxODA5ODM=
+235 2.7.0 Accepted
+DEBUG SMTP: use8bit false
+MAIL FROM:<atila.ufrpe@gmail.com>
+250 2.1.0 OK p15sm6420303ybk.37
+RCPT TO:<andrea_araujo_1@yahoo.com.br>
+250 2.1.5 OK p15sm6420303ybk.37
+DEBUG SMTP: Verified Addresses
+DEBUG SMTP:   "andrea_araujo_1@yahoo.com.br" <andrea_araujo_1@yahoo.com.br>
+DATA
+354  Go ahead p15sm6420303ybk.37
+Date: Fri, 11 Jun 2010 00:14:04 -0300 (GMT-03:00)
+From: "atila.ufrpe@gmail.com" <atila.ufrpe@gmail.com>
+To: "andrea_araujo_1@yahoo.com.br" <andrea_araujo_1@yahoo.com.br>
+Message-ID: <30325919.28.1276226044250.JavaMail.atila@falcon>
+Subject: Nota da atividade
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Ol=E1 Andr=E9a da Silva Ara=FAjo,
+sua nota Exerc=EDcio 3 - Hardware de Computadores foi 10.0.
+
+Atila Bezerra
+disciplina Elementos de Inform=E1tica - UFRPE
+.
+250 2.0.0 OK 1276226049 p15sm6420303ybk.37
+QUIT
+221 2.0.0 closing connection p15sm6420303ybk.37
+Dinaldo Carlos Teixeira
+DEBUG: JavaMail version 1.4.3
+DEBUG: successfully loaded resource: /META-INF/javamail.default.providers
+DEBUG: Tables of loaded providers
+DEBUG: Providers Listed By Class Name: {com.sun.mail.smtp.SMTPSSLTransport=javax.mail.Provider[TRANSPORT,smtps,com.sun.mail.smtp.SMTPSSLTransport,Sun Microsystems, Inc], com.sun.mail.smtp.SMTPTransport=javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Sun Microsystems, Inc], com.sun.mail.imap.IMAPSSLStore=javax.mail.Provider[STORE,imaps,com.sun.mail.imap.IMAPSSLStore,Sun Microsystems, Inc], com.sun.mail.pop3.POP3SSLStore=javax.mail.Provider[STORE,pop3s,com.sun.mail.pop3.POP3SSLStore,Sun Microsystems, Inc], com.sun.mail.imap.IMAPStore=javax.mail.Provider[STORE,imap,com.sun.mail.imap.IMAPStore,Sun Microsystems, Inc], com.sun.mail.pop3.POP3Store=javax.mail.Provider[STORE,pop3,com.sun.mail.pop3.POP3Store,Sun Microsystems, Inc]}
+DEBUG: Providers Listed By Protocol: {imaps=javax.mail.Provider[STORE,imaps,com.sun.mail.imap.IMAPSSLStore,Sun Microsystems, Inc], imap=javax.mail.Provider[STORE,imap,com.sun.mail.imap.IMAPStore,Sun Microsystems, Inc], smtps=javax.mail.Provider[TRANSPORT,smtps,com.sun.mail.smtp.SMTPSSLTransport,Sun Microsystems, Inc], pop3=javax.mail.Provider[STORE,pop3,com.sun.mail.pop3.POP3Store,Sun Microsystems, Inc], pop3s=javax.mail.Provider[STORE,pop3s,com.sun.mail.pop3.POP3SSLStore,Sun Microsystems, Inc], smtp=javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Sun Microsystems, Inc]}
+DEBUG: successfully loaded resource: /META-INF/javamail.default.address.map
+DEBUG: getProvider() returning javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Sun Microsystems, Inc]
+DEBUG SMTP: useEhlo true, useAuth true
+DEBUG SMTP: useEhlo true, useAuth true
+DEBUG SMTP: trying to connect to host "smtp.gmail.com", port 465, isSSL false
+220 mx.google.com ESMTP u4sm6438132ybh.22
+DEBUG SMTP: connected to host "smtp.gmail.com", port: 465
+
+EHLO falcon
+250-mx.google.com at your service, [187.58.101.250]
+250-SIZE 35651584
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH
+250 ENHANCEDSTATUSCODES
+DEBUG SMTP: Found extension "SIZE", arg "35651584"
+DEBUG SMTP: Found extension "8BITMIME", arg ""
+DEBUG SMTP: Found extension "AUTH", arg "LOGIN PLAIN XOAUTH"
+DEBUG SMTP: Found extension "ENHANCEDSTATUSCODES", arg ""
+DEBUG SMTP: Attempt to authenticate
+DEBUG SMTP: check mechanisms: LOGIN PLAIN DIGEST-MD5 NTLM 
+AUTH LOGIN
+334 VXNlcm5hbWU6
+YXRpbGEudWZycGVAZ21haWwuY29t
+334 UGFzc3dvcmQ6
+YXQxODA5ODM=
+235 2.7.0 Accepted
+DEBUG SMTP: use8bit false
+MAIL FROM:<atila.ufrpe@gmail.com>
+250 2.1.0 OK u4sm6438132ybh.22
+RCPT TO:<dynald@ig.com.br>
+250 2.1.5 OK u4sm6438132ybh.22
+DEBUG SMTP: Verified Addresses
+DEBUG SMTP:   "dynald@ig.com.br" <dynald@ig.com.br>
+DATA
+354  Go ahead u4sm6438132ybh.22
+Date: Fri, 11 Jun 2010 00:14:10 -0300 (GMT-03:00)
+From: "atila.ufrpe@gmail.com" <atila.ufrpe@gmail.com>
+To: "dynald@ig.com.br" <dynald@ig.com.br>
+Message-ID: <29469766.29.1276226050328.JavaMail.atila@falcon>
+Subject: Nota da atividade
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Ol=E1 Dinaldo Carlos Teixeira,
+sua nota Exerc=EDcio 3 - Hardware de Computadores foi 10.0.
+
+Atila Bezerra
+disciplina Elementos de Inform=E1tica - UFRPE
+.
+250 2.0.0 OK 1276226055 u4sm6438132ybh.22
+QUIT
+221 2.0.0 closing connection u4sm6438132ybh.22
+JOSÉ BONIFÁCIO
+DEBUG: JavaMail version 1.4.3
+DEBUG: successfully loaded resource: /META-INF/javamail.default.providers
+DEBUG: Tables of loaded providers
+DEBUG: Providers Listed By Class Name: {com.sun.mail.smtp.SMTPSSLTransport=javax.mail.Provider[TRANSPORT,smtps,com.sun.mail.smtp.SMTPSSLTransport,Sun Microsystems, Inc], com.sun.mail.smtp.SMTPTransport=javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Sun Microsystems, Inc], com.sun.mail.imap.IMAPSSLStore=javax.mail.Provider[STORE,imaps,com.sun.mail.imap.IMAPSSLStore,Sun Microsystems, Inc], com.sun.mail.pop3.POP3SSLStore=javax.mail.Provider[STORE,pop3s,com.sun.mail.pop3.POP3SSLStore,Sun Microsystems, Inc], com.sun.mail.imap.IMAPStore=javax.mail.Provider[STORE,imap,com.sun.mail.imap.IMAPStore,Sun Microsystems, Inc], com.sun.mail.pop3.POP3Store=javax.mail.Provider[STORE,pop3,com.sun.mail.pop3.POP3Store,Sun Microsystems, Inc]}
+DEBUG: Providers Listed By Protocol: {imaps=javax.mail.Provider[STORE,imaps,com.sun.mail.imap.IMAPSSLStore,Sun Microsystems, Inc], imap=javax.mail.Provider[STORE,imap,com.sun.mail.imap.IMAPStore,Sun Microsystems, Inc], smtps=javax.mail.Provider[TRANSPORT,smtps,com.sun.mail.smtp.SMTPSSLTransport,Sun Microsystems, Inc], pop3=javax.mail.Provider[STORE,pop3,com.sun.mail.pop3.POP3Store,Sun Microsystems, Inc], pop3s=javax.mail.Provider[STORE,pop3s,com.sun.mail.pop3.POP3SSLStore,Sun Microsystems, Inc], smtp=javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Sun Microsystems, Inc]}
+DEBUG: successfully loaded resource: /META-INF/javamail.default.address.map
+DEBUG: getProvider() returning javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Sun Microsystems, Inc]
+DEBUG SMTP: useEhlo true, useAuth true
+DEBUG SMTP: useEhlo true, useAuth true
+DEBUG SMTP: trying to connect to host "smtp.gmail.com", port 465, isSSL false
+220 mx.google.com ESMTP q8sm6455714ybk.7
+DEBUG SMTP: connected to host "smtp.gmail.com", port: 465
+
+EHLO falcon
+250-mx.google.com at your service, [187.58.101.250]
+250-SIZE 35651584
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH
+250 ENHANCEDSTATUSCODES
+DEBUG SMTP: Found extension "SIZE", arg "35651584"
+DEBUG SMTP: Found extension "8BITMIME", arg ""
+DEBUG SMTP: Found extension "AUTH", arg "LOGIN PLAIN XOAUTH"
+DEBUG SMTP: Found extension "ENHANCEDSTATUSCODES", arg ""
+DEBUG SMTP: Attempt to authenticate
+DEBUG SMTP: check mechanisms: LOGIN PLAIN DIGEST-MD5 NTLM 
+AUTH LOGIN
+334 VXNlcm5hbWU6
+YXRpbGEudWZycGVAZ21haWwuY29t
+334 UGFzc3dvcmQ6
+YXQxODA5ODM=
+235 2.7.0 Accepted
+DEBUG SMTP: use8bit false
+MAIL FROM:<atila.ufrpe@gmail.com>
+250 2.1.0 OK q8sm6455714ybk.7
+RCPT TO:<bonyfacio@ig.com.br>
+250 2.1.5 OK q8sm6455714ybk.7
+DEBUG SMTP: Verified Addresses
+DEBUG SMTP:   "bonyfacio@ig.com.br" <bonyfacio@ig.com.br>
+DATA
+354  Go ahead q8sm6455714ybk.7
+Date: Fri, 11 Jun 2010 00:14:16 -0300 (GMT-03:00)
+From: "atila.ufrpe@gmail.com" <atila.ufrpe@gmail.com>
+To: "bonyfacio@ig.com.br" <bonyfacio@ig.com.br>
+Message-ID: <4814818.30.1276226056125.JavaMail.atila@falcon>
+Subject: Nota da atividade
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Ol=E1 JOS=C9 BONIF=C1CIO,
+sua nota Exerc=EDcio 3 - Hardware de Computadores foi 10.0.
+
+Atila Bezerra
+disciplina Elementos de Inform=E1tica - UFRPE
+.
+250 2.0.0 OK 1276226062 q8sm6455714ybk.7
+QUIT
+221 2.0.0 closing connection q8sm6455714ybk.7
+Afonso Feitosa Reis Filho
+DEBUG: JavaMail version 1.4.3
+DEBUG: successfully loaded resource: /META-INF/javamail.default.providers
+DEBUG: Tables of loaded providers
+DEBUG: Providers Listed By Class Name: {com.sun.mail.smtp.SMTPSSLTransport=javax.mail.Provider[TRANSPORT,smtps,com.sun.mail.smtp.SMTPSSLTransport,Sun Microsystems, Inc], com.sun.mail.smtp.SMTPTransport=javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Sun Microsystems, Inc], com.sun.mail.imap.IMAPSSLStore=javax.mail.Provider[STORE,imaps,com.sun.mail.imap.IMAPSSLStore,Sun Microsystems, Inc], com.sun.mail.pop3.POP3SSLStore=javax.mail.Provider[STORE,pop3s,com.sun.mail.pop3.POP3SSLStore,Sun Microsystems, Inc], com.sun.mail.imap.IMAPStore=javax.mail.Provider[STORE,imap,com.sun.mail.imap.IMAPStore,Sun Microsystems, Inc], com.sun.mail.pop3.POP3Store=javax.mail.Provider[STORE,pop3,com.sun.mail.pop3.POP3Store,Sun Microsystems, Inc]}
+DEBUG: Providers Listed By Protocol: {imaps=javax.mail.Provider[STORE,imaps,com.sun.mail.imap.IMAPSSLStore,Sun Microsystems, Inc], imap=javax.mail.Provider[STORE,imap,com.sun.mail.imap.IMAPStore,Sun Microsystems, Inc], smtps=javax.mail.Provider[TRANSPORT,smtps,com.sun.mail.smtp.SMTPSSLTransport,Sun Microsystems, Inc], pop3=javax.mail.Provider[STORE,pop3,com.sun.mail.pop3.POP3Store,Sun Microsystems, Inc], pop3s=javax.mail.Provider[STORE,pop3s,com.sun.mail.pop3.POP3SSLStore,Sun Microsystems, Inc], smtp=javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Sun Microsystems, Inc]}
+DEBUG: successfully loaded resource: /META-INF/javamail.default.address.map
+DEBUG: getProvider() returning javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Sun Microsystems, Inc]
+DEBUG SMTP: useEhlo true, useAuth true
+DEBUG SMTP: useEhlo true, useAuth true
+DEBUG SMTP: trying to connect to host "smtp.gmail.com", port 465, isSSL false
+220 mx.google.com ESMTP p5sm6501152ybe.0
+DEBUG SMTP: connected to host "smtp.gmail.com", port: 465
+
+EHLO falcon
+250-mx.google.com at your service, [187.58.101.250]
+250-SIZE 35651584
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH
+250 ENHANCEDSTATUSCODES
+DEBUG SMTP: Found extension "SIZE", arg "35651584"
+DEBUG SMTP: Found extension "8BITMIME", arg ""
+DEBUG SMTP: Found extension "AUTH", arg "LOGIN PLAIN XOAUTH"
+DEBUG SMTP: Found extension "ENHANCEDSTATUSCODES", arg ""
+DEBUG SMTP: Attempt to authenticate
+DEBUG SMTP: check mechanisms: LOGIN PLAIN DIGEST-MD5 NTLM 
+AUTH LOGIN
+334 VXNlcm5hbWU6
+YXRpbGEudWZycGVAZ21haWwuY29t
+334 UGFzc3dvcmQ6
+YXQxODA5ODM=
+235 2.7.0 Accepted
+DEBUG SMTP: use8bit false
+MAIL FROM:<atila.ufrpe@gmail.com>
+250 2.1.0 OK p5sm6501152ybe.0
+RCPT TO:<afonsoceegp@yahoo.com.br>
+250 2.1.5 OK p5sm6501152ybe.0
+DEBUG SMTP: Verified Addresses
+DEBUG SMTP:   "afonsoceegp@yahoo.com.br" <afonsoceegp@yahoo.com.br>
+DATA
+354  Go ahead p5sm6501152ybe.0
+Date: Fri, 11 Jun 2010 00:14:23 -0300 (GMT-03:00)
+From: "atila.ufrpe@gmail.com" <atila.ufrpe@gmail.com>
+To: "afonsoceegp@yahoo.com.br" <afonsoceegp@yahoo.com.br>
+Message-ID: <22917439.31.1276226063125.JavaMail.atila@falcon>
+Subject: Nota da atividade
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Ol=E1 Afonso Feitosa Reis Filho,
+sua nota Exerc=EDcio 3 - Hardware de Computadores foi 10.0.
+
+Atila Bezerra
+disciplina Elementos de Inform=E1tica - UFRPE
+.
+250 2.0.0 OK 1276226069 p5sm6501152ybe.0
+QUIT
+221 2.0.0 closing connection p5sm6501152ybe.0
+Valdemir Francisco Barbosa
+DEBUG: JavaMail version 1.4.3
+DEBUG: successfully loaded resource: /META-INF/javamail.default.providers
+DEBUG: Tables of loaded providers
+DEBUG: Providers Listed By Class Name: {com.sun.mail.smtp.SMTPSSLTransport=javax.mail.Provider[TRANSPORT,smtps,com.sun.mail.smtp.SMTPSSLTransport,Sun Microsystems, Inc], com.sun.mail.smtp.SMTPTransport=javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Sun Microsystems, Inc], com.sun.mail.imap.IMAPSSLStore=javax.mail.Provider[STORE,imaps,com.sun.mail.imap.IMAPSSLStore,Sun Microsystems, Inc], com.sun.mail.pop3.POP3SSLStore=javax.mail.Provider[STORE,pop3s,com.sun.mail.pop3.POP3SSLStore,Sun Microsystems, Inc], com.sun.mail.imap.IMAPStore=javax.mail.Provider[STORE,imap,com.sun.mail.imap.IMAPStore,Sun Microsystems, Inc], com.sun.mail.pop3.POP3Store=javax.mail.Provider[STORE,pop3,com.sun.mail.pop3.POP3Store,Sun Microsystems, Inc]}
+DEBUG: Providers Listed By Protocol: {imaps=javax.mail.Provider[STORE,imaps,com.sun.mail.imap.IMAPSSLStore,Sun Microsystems, Inc], imap=javax.mail.Provider[STORE,imap,com.sun.mail.imap.IMAPStore,Sun Microsystems, Inc], smtps=javax.mail.Provider[TRANSPORT,smtps,com.sun.mail.smtp.SMTPSSLTransport,Sun Microsystems, Inc], pop3=javax.mail.Provider[STORE,pop3,com.sun.mail.pop3.POP3Store,Sun Microsystems, Inc], pop3s=javax.mail.Provider[STORE,pop3s,com.sun.mail.pop3.POP3SSLStore,Sun Microsystems, Inc], smtp=javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Sun Microsystems, Inc]}
+DEBUG: successfully loaded resource: /META-INF/javamail.default.address.map
+DEBUG: getProvider() returning javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Sun Microsystems, Inc]
+DEBUG SMTP: useEhlo true, useAuth true
+DEBUG SMTP: useEhlo true, useAuth true
+DEBUG SMTP: trying to connect to host "smtp.gmail.com", port 465, isSSL false
+220 mx.google.com ESMTP v2sm6420052ybe.47
+DEBUG SMTP: connected to host "smtp.gmail.com", port: 465
+
+EHLO falcon
+250-mx.google.com at your service, [187.58.101.250]
+250-SIZE 35651584
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH
+250 ENHANCEDSTATUSCODES
+DEBUG SMTP: Found extension "SIZE", arg "35651584"
+DEBUG SMTP: Found extension "8BITMIME", arg ""
+DEBUG SMTP: Found extension "AUTH", arg "LOGIN PLAIN XOAUTH"
+DEBUG SMTP: Found extension "ENHANCEDSTATUSCODES", arg ""
+DEBUG SMTP: Attempt to authenticate
+DEBUG SMTP: check mechanisms: LOGIN PLAIN DIGEST-MD5 NTLM 
+AUTH LOGIN
+334 VXNlcm5hbWU6
+YXRpbGEudWZycGVAZ21haWwuY29t
+334 UGFzc3dvcmQ6
+YXQxODA5ODM=
+235 2.7.0 Accepted
+DEBUG SMTP: use8bit false
+MAIL FROM:<atila.ufrpe@gmail.com>
+250 2.1.0 OK v2sm6420052ybe.47
+RCPT TO:<valdemir.barbosa@hotmail.com>
+250 2.1.5 OK v2sm6420052ybe.47
+DEBUG SMTP: Verified Addresses
+DEBUG SMTP:   "valdemir.barbosa@hotmail.com" <valdemir.barbosa@hotmail.com>
+DATA
+354  Go ahead v2sm6420052ybe.47
+Date: Fri, 11 Jun 2010 00:14:30 -0300 (GMT-03:00)
+From: "atila.ufrpe@gmail.com" <atila.ufrpe@gmail.com>
+To: "valdemir.barbosa@hotmail.com" <valdemir.barbosa@hotmail.com>
+Message-ID: <4167406.32.1276226070062.JavaMail.atila@falcon>
+Subject: Nota da atividade
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Ol=E1 Valdemir Francisco Barbosa,
+sua nota Exerc=EDcio 3 - Hardware de Computadores foi 9.0.
+
+Atila Bezerra
+disciplina Elementos de Inform=E1tica - UFRPE
+.
+250 2.0.0 OK 1276226075 v2sm6420052ybe.47
+QUIT
+221 2.0.0 closing connection v2sm6420052ybe.47
+Catarina Calado
+DEBUG: JavaMail version 1.4.3
+DEBUG: successfully loaded resource: /META-INF/javamail.default.providers
+DEBUG: Tables of loaded providers
+DEBUG: Providers Listed By Class Name: {com.sun.mail.smtp.SMTPSSLTransport=javax.mail.Provider[TRANSPORT,smtps,com.sun.mail.smtp.SMTPSSLTransport,Sun Microsystems, Inc], com.sun.mail.smtp.SMTPTransport=javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Sun Microsystems, Inc], com.sun.mail.imap.IMAPSSLStore=javax.mail.Provider[STORE,imaps,com.sun.mail.imap.IMAPSSLStore,Sun Microsystems, Inc], com.sun.mail.pop3.POP3SSLStore=javax.mail.Provider[STORE,pop3s,com.sun.mail.pop3.POP3SSLStore,Sun Microsystems, Inc], com.sun.mail.imap.IMAPStore=javax.mail.Provider[STORE,imap,com.sun.mail.imap.IMAPStore,Sun Microsystems, Inc], com.sun.mail.pop3.POP3Store=javax.mail.Provider[STORE,pop3,com.sun.mail.pop3.POP3Store,Sun Microsystems, Inc]}
+DEBUG: Providers Listed By Protocol: {imaps=javax.mail.Provider[STORE,imaps,com.sun.mail.imap.IMAPSSLStore,Sun Microsystems, Inc], imap=javax.mail.Provider[STORE,imap,com.sun.mail.imap.IMAPStore,Sun Microsystems, Inc], smtps=javax.mail.Provider[TRANSPORT,smtps,com.sun.mail.smtp.SMTPSSLTransport,Sun Microsystems, Inc], pop3=javax.mail.Provider[STORE,pop3,com.sun.mail.pop3.POP3Store,Sun Microsystems, Inc], pop3s=javax.mail.Provider[STORE,pop3s,com.sun.mail.pop3.POP3SSLStore,Sun Microsystems, Inc], smtp=javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Sun Microsystems, Inc]}
+DEBUG: successfully loaded resource: /META-INF/javamail.default.address.map
+DEBUG: getProvider() returning javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Sun Microsystems, Inc]
+DEBUG SMTP: useEhlo true, useAuth true
+DEBUG SMTP: useEhlo true, useAuth true
+DEBUG SMTP: trying to connect to host "smtp.gmail.com", port 465, isSSL false
+220 mx.google.com ESMTP p16sm6439874ybk.21
+DEBUG SMTP: connected to host "smtp.gmail.com", port: 465
+
+EHLO falcon
+250-mx.google.com at your service, [187.58.101.250]
+250-SIZE 35651584
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH
+250 ENHANCEDSTATUSCODES
+DEBUG SMTP: Found extension "SIZE", arg "35651584"
+DEBUG SMTP: Found extension "8BITMIME", arg ""
+DEBUG SMTP: Found extension "AUTH", arg "LOGIN PLAIN XOAUTH"
+DEBUG SMTP: Found extension "ENHANCEDSTATUSCODES", arg ""
+DEBUG SMTP: Attempt to authenticate
+DEBUG SMTP: check mechanisms: LOGIN PLAIN DIGEST-MD5 NTLM 
+AUTH LOGIN
+334 VXNlcm5hbWU6
+YXRpbGEudWZycGVAZ21haWwuY29t
+334 UGFzc3dvcmQ6
+YXQxODA5ODM=
+235 2.7.0 Accepted
+DEBUG SMTP: use8bit false
+MAIL FROM:<atila.ufrpe@gmail.com>
+250 2.1.0 OK p16sm6439874ybk.21
+RCPT TO:<catarina_calado@hotmail.com>
+250 2.1.5 OK p16sm6439874ybk.21
+DEBUG SMTP: Verified Addresses
+DEBUG SMTP:   "catarina_calado@hotmail.com" <catarina_calado@hotmail.com>
+DATA
+354  Go ahead p16sm6439874ybk.21
+Date: Fri, 11 Jun 2010 00:14:36 -0300 (GMT-03:00)
+From: "atila.ufrpe@gmail.com" <atila.ufrpe@gmail.com>
+To: "catarina_calado@hotmail.com" <catarina_calado@hotmail.com>
+Message-ID: <29089096.33.1276226076421.JavaMail.atila@falcon>
+Subject: Nota da atividade
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Ol=E1 Catarina Calado,
+sua nota Exerc=EDcio 3 - Hardware de Computadores foi 8.0.
+
+Atila Bezerra
+disciplina Elementos de Inform=E1tica - UFRPE
+.
+250 2.0.0 OK 1276226080 p16sm6439874ybk.21
+QUIT
+221 2.0.0 closing connection p16sm6439874ybk.21
+Beatriz C. E. Santos
+DEBUG: JavaMail version 1.4.3
+DEBUG: successfully loaded resource: /META-INF/javamail.default.providers
+DEBUG: Tables of loaded providers
+DEBUG: Providers Listed By Class Name: {com.sun.mail.smtp.SMTPSSLTransport=javax.mail.Provider[TRANSPORT,smtps,com.sun.mail.smtp.SMTPSSLTransport,Sun Microsystems, Inc], com.sun.mail.smtp.SMTPTransport=javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Sun Microsystems, Inc], com.sun.mail.imap.IMAPSSLStore=javax.mail.Provider[STORE,imaps,com.sun.mail.imap.IMAPSSLStore,Sun Microsystems, Inc], com.sun.mail.pop3.POP3SSLStore=javax.mail.Provider[STORE,pop3s,com.sun.mail.pop3.POP3SSLStore,Sun Microsystems, Inc], com.sun.mail.imap.IMAPStore=javax.mail.Provider[STORE,imap,com.sun.mail.imap.IMAPStore,Sun Microsystems, Inc], com.sun.mail.pop3.POP3Store=javax.mail.Provider[STORE,pop3,com.sun.mail.pop3.POP3Store,Sun Microsystems, Inc]}
+DEBUG: Providers Listed By Protocol: {imaps=javax.mail.Provider[STORE,imaps,com.sun.mail.imap.IMAPSSLStore,Sun Microsystems, Inc], imap=javax.mail.Provider[STORE,imap,com.sun.mail.imap.IMAPStore,Sun Microsystems, Inc], smtps=javax.mail.Provider[TRANSPORT,smtps,com.sun.mail.smtp.SMTPSSLTransport,Sun Microsystems, Inc], pop3=javax.mail.Provider[STORE,pop3,com.sun.mail.pop3.POP3Store,Sun Microsystems, Inc], pop3s=javax.mail.Provider[STORE,pop3s,com.sun.mail.pop3.POP3SSLStore,Sun Microsystems, Inc], smtp=javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Sun Microsystems, Inc]}
+DEBUG: successfully loaded resource: /META-INF/javamail.default.address.map
+DEBUG: getProvider() returning javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Sun Microsystems, Inc]
+DEBUG SMTP: useEhlo true, useAuth true
+DEBUG SMTP: useEhlo true, useAuth true
+DEBUG SMTP: trying to connect to host "smtp.gmail.com", port 465, isSSL false
+220 mx.google.com ESMTP u2sm3767745ybh.27
+DEBUG SMTP: connected to host "smtp.gmail.com", port: 465
+
+EHLO falcon
+250-mx.google.com at your service, [187.58.101.250]
+250-SIZE 35651584
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH
+250 ENHANCEDSTATUSCODES
+DEBUG SMTP: Found extension "SIZE", arg "35651584"
+DEBUG SMTP: Found extension "8BITMIME", arg ""
+DEBUG SMTP: Found extension "AUTH", arg "LOGIN PLAIN XOAUTH"
+DEBUG SMTP: Found extension "ENHANCEDSTATUSCODES", arg ""
+DEBUG SMTP: Attempt to authenticate
+DEBUG SMTP: check mechanisms: LOGIN PLAIN DIGEST-MD5 NTLM 
+AUTH LOGIN
+334 VXNlcm5hbWU6
+YXRpbGEudWZycGVAZ21haWwuY29t
+334 UGFzc3dvcmQ6
+YXQxODA5ODM=
+235 2.7.0 Accepted
+DEBUG SMTP: use8bit false
+MAIL FROM:<atila.ufrpe@gmail.com>
+250 2.1.0 OK u2sm3767745ybh.27
+RCPT TO:<beatrizces@bol.com.br>
+250 2.1.5 OK u2sm3767745ybh.27
+DEBUG SMTP: Verified Addresses
+DEBUG SMTP:   "beatrizces@bol.com.br" <beatrizces@bol.com.br>
+DATA
+354  Go ahead u2sm3767745ybh.27
+Date: Fri, 11 Jun 2010 00:14:41 -0300 (GMT-03:00)
+From: "atila.ufrpe@gmail.com" <atila.ufrpe@gmail.com>
+To: "beatrizces@bol.com.br" <beatrizces@bol.com.br>
+Message-ID: <12954112.34.1276226081718.JavaMail.atila@falcon>
+Subject: Nota da atividade
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Ol=E1 Beatriz C. E. Santos,
+sua nota Exerc=EDcio 3 - Hardware de Computadores foi 9.0.
+
+Atila Bezerra
+disciplina Elementos de Inform=E1tica - UFRPE
+.
+250 2.0.0 OK 1276226088 u2sm3767745ybh.27
+QUIT
+221 2.0.0 closing connection u2sm3767745ybh.27
