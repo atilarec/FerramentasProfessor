@@ -24,7 +24,6 @@ public class CorrecaoTest extends TestCase {
 		corretor = new  Corretor();
 		corretor.setGabaritoFilePath("fixtures\\gabarito.properties");
 		corretor.setRespostasFilePath("fixtures\\exercicio1.xls");
-		corretor.setCorrecaoFilePath("fixtures\\exercicio1_correcao.xls");
 		
 		TreeMap<String, String> gabaritoCerto = new TreeMap<String, String> ();
 		gabaritoCerto.put("1", "a");
@@ -54,7 +53,6 @@ public class CorrecaoTest extends TestCase {
 		corretor = new  Corretor();
 		corretor.setGabaritoFilePath("fixtures\\gabaritoComTextoEAcento.properties");
 		corretor.setRespostasFilePath("fixtures\\exercicio1.xls");
-		corretor.setCorrecaoFilePath("fixtures\\exercicio1_correcao.xls");
 		
 		TreeMap<String, String> gabaritoCerto = new TreeMap<String, String> ();
 		gabaritoCerto.put("3", "sistema binário");
@@ -73,7 +71,6 @@ public class CorrecaoTest extends TestCase {
 		corretor = new  Corretor();
 		corretor.setGabaritoFilePath("fixtures\\gabarito.properties");
 		corretor.setRespostasFilePath("fixtures\\exercicio1.xls");
-		corretor.setCorrecaoFilePath("fixtures\\exercicio1_correcao.xls");
 		
 		Aluno aluno1 = new Aluno("Mon Jan 11 00:00:00 GMT-03:00 2010", "Atila", "atilarec@gmail.com");
 		TreeMap<String, String> respostas1 = new TreeMap<String, String> ();
@@ -147,7 +144,6 @@ public class CorrecaoTest extends TestCase {
 		corretor = new  Corretor();
 		corretor.setGabaritoFilePath("fixtures\\gabarito.properties");
 		corretor.setRespostasFilePath("fixtures\\respostasComLinhaEmBranco.xls");
-		corretor.setCorrecaoFilePath("fixtures\\exercicio1_correcao.xls");
 			
 		ArrayList<Aluno> alunos =  corretor.getRespostas();
 		assertEquals(alunos.size(), 2);
@@ -158,7 +154,6 @@ public class CorrecaoTest extends TestCase {
 		corretor = new  Corretor();
 		corretor.setGabaritoFilePath("fixtures\\gabarito.properties");
 		corretor.setRespostasFilePath("fixtures\\exercicio1.xls");
-		corretor.setCorrecaoFilePath("fixtures\\exercicio1_correcao.xls");
 		
 		Aluno aluno1 = new Aluno("Mon Jan 11 00:00:00 GMT-03:00 2010", "eu", "atilarec@gmail.com");
 		TreeMap<String, String> respostas1 = new TreeMap<String, String>();
@@ -216,7 +211,6 @@ public class CorrecaoTest extends TestCase {
 		corretor = new  Corretor();
 		corretor.setGabaritoFilePath("fixtures\\gabarito.properties");
 		corretor.setRespostasFilePath("fixtures\\exercicio1.xls");
-		corretor.setCorrecaoFilePath("fixtures\\exercicio1_correcao.xls");
 		
 		Aluno aluno1 = new Aluno("Mon Jan 11 00:00:00 GMT-03:00 2010", "eu", "atilarec@gmail.com");
 		TreeMap<String, String> respostas1 = new TreeMap<String, String>();
@@ -271,7 +265,6 @@ public class CorrecaoTest extends TestCase {
 		corretor = new  Corretor();
 		corretor.setGabaritoFilePath("fixtures\\gabarito.properties");
 		corretor.setRespostasFilePath("fixtures\\alunoSemRespostas.xls");
-		corretor.setCorrecaoFilePath("fixtures\\exercicio1_correcao.xls");
 		
 		Aluno aluno1 = new Aluno("Mon Jan 11 00:00:00 GMT-03:00 2010", "Atila", "atilarec@gmail.com");
 		TreeMap<String,String> respostas1 = new TreeMap<String,String>();
@@ -297,7 +290,6 @@ public class CorrecaoTest extends TestCase {
 		corretor = new  Corretor();
 		corretor.setGabaritoFilePath("fixtures\\gabarito_com_correspondencia_de_colunas");
 		corretor.setRespostasFilePath("fixtures\\exercicio_com_correspondencia_de_colunas.xls");
-		corretor.setCorrecaoFilePath("fixtures\\correcoes\\CORRECAO_exercicio_com_correspondencia_de_colunas.xls");
 		
 		Aluno aluno1 = new Aluno("Mon Jan 11 00:00:00 GMT-03:00 2010", "eu", "atilarec@gmail.com");
 		TreeMap<String, String> respostas1 = new TreeMap<String, String>();
@@ -361,7 +353,7 @@ public class CorrecaoTest extends TestCase {
 		corretor = new  Corretor();
 		corretor.setGabaritoFilePath("fixtures\\gabarito");
 		corretor.setRespostasFilePath("fixtures\\respostas.xls");
-		corretor.setCorrecaoFilePath("fixtures\\respostas_correcao.xls");
+		corretor.setCorrecaoFilePath("fixtures\\correcoes\\respostas_correcao.xls");
 		
 		//corretor.setGabaritoFilePath("fixtures\\gabarito.properties");
 		//corretor.setRespostasFilePath("fixtures\\exercicio1.xls");
