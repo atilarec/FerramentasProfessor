@@ -5,15 +5,15 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Enumeration;
 import java.util.Properties;
+import java.util.Set;
 import java.util.TreeMap;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
-import javax.management.RuntimeErrorException;
 
 import org.apache.poi.hssf.usermodel.HSSFRow;
 import org.apache.poi.hssf.usermodel.HSSFSheet;
@@ -261,24 +261,54 @@ public class Corretor {
 			Correcao correcao = new Correcao();
 			correcao.setAluno(aluno);
 
-			double total = 0.0;
-
-			TreeMap<String, Double> correcoesArray = new TreeMap<String, Double>();
+			TreeMap<String, Double> correcoesMap = new TreeMap<String, Double>();
 			
 			for (String key : gabarito.keySet()) {
 				String resposta = aluno.getRespostas().get(key);
 				if (resposta.equals(gabarito.get(key))) {
-					correcoesArray.put(key, new Double(1));
-					total += 1;
+					correcoesMap.put(key, new Double(1));
 				} else {
-					correcoesArray.put(key, new Double(0));
+					correcoesMap.put(key, new Double(0));
 				}
 			}
-			correcao.setCorrecoes(correcoesArray);
-			correcao.setNota(total);
+			correcao.setCorrecoes(correcoesMap);
+			correcao.setNota(this.getNotaCorrecao(correcoesMap));
 			correcoes.add(correcao);
 		}
 		return deletaAtividadeDuplicada(correcoes);
+	}
+
+	private double getNotaCorrecao(TreeMap<String, Double> correcoesMap) {
+		//ArrayList<Double> keysQuestaoColuna = new ArrayList<Double>();
+		TreeMap<String, ArrayList<Double>> questaoColuna = new TreeMap<String, ArrayList<Double>>();
+		
+		double total = 0.0;
+		for (String key : correcoesMap.keySet()){
+			Pattern pattern = Pattern.compile("(\\d+)(\\w)");
+			Matcher matcher = pattern.matcher(key);
+			
+			if (matcher.find()) {
+				if (!questaoColuna.containsKey(matcher.group(1))){
+					questaoColuna.put(matcher.group(1), new ArrayList<Double>());
+				}
+				questaoColuna.get(matcher.group(1)).add(correcoesMap.get(key));
+			} else {
+				total += correcoesMap.get(key);
+			}
+		}
+		//soma questoes colunas
+		
+		for (String key : questaoColuna.keySet()){
+			ArrayList<Double> pontos = questaoColuna.get(key);
+			double somaPontos = 0.0;
+			for (Double ponto : pontos){
+				somaPontos += ponto;
+			}
+			DecimalFormat decimal = new DecimalFormat( "0.00" );
+			
+			total += Double.parseDouble(decimal.format(somaPontos / pontos.size()).replace(",", "."));
+		}
+		return total;
 	}
 
 	// Deleta atividades de alunos que estejam duplicadas. Apaga a que tiver

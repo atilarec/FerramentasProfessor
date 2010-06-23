@@ -142,7 +142,7 @@ public class CorrecaoTest extends TestCase {
 	}
 	
 	
-	//testa se nao nao esta trazendo linhas em branco e alunos sem email.
+	//testa se nao esta trazendo linhas em branco e alunos sem email.
 	public void testGetRespostasComLinhaEmBranco(){
 		corretor = new  Corretor();
 		corretor.setGabaritoFilePath("fixtures\\gabarito.properties");
@@ -188,9 +188,9 @@ public class CorrecaoTest extends TestCase {
 		correcoes2.put("2", new Double(0));
 		correcoes2.put("3", new Double(1));
 		correcoes2.put("4", new Double(1));
-		Correcao correcao2 = new Correcao(aluno1, correcoes1, 2);
+		Correcao correcao2 = new Correcao(aluno2, correcoes2, 2);
 		
-		ArrayList<Correcao> correcoesCorretas = corretor.getCorrecoes();
+		ArrayList<Correcao> correcoesCorretas =  new ArrayList<Correcao>();
 		correcoesCorretas.add(correcao1);
 		correcoesCorretas.add(correcao2);
 		
@@ -209,6 +209,9 @@ public class CorrecaoTest extends TestCase {
 		}
 	}
 	
+	/*
+	 * testa se quando tem mais de um exercicio do mesmo aluno so eh retornada uma entrada que tem a maior nota
+	 * */
 	public void testGetCorrecaoSomenteUmaEntradaPorAluno(){
 		corretor = new  Corretor();
 		corretor.setGabaritoFilePath("fixtures\\gabarito.properties");
@@ -238,14 +241,14 @@ public class CorrecaoTest extends TestCase {
 		respostas2.put("4", "d");
 		aluno2.setRespostas(respostas2);
 		
-		ArrayList<Double> correcoes2 = new ArrayList<Double>();
-		correcoes2.add(new Double(0));
-		correcoes2.add(new Double(0));
-		correcoes2.add(new Double(1));
-		correcoes2.add(new Double(1));
-		Correcao correcao2 = new Correcao(aluno1, correcoes1, 2);
+		TreeMap<String, Double> correcoes2 = new TreeMap<String, Double>();
+		correcoes2.put("1", new Double(0));
+		correcoes2.put("2", new Double(0));
+		correcoes2.put("3", new Double(1));
+		correcoes2.put("4", new Double(1));
+		Correcao correcao2 = new Correcao(aluno2, correcoes2, 2);
 		
-		ArrayList<Correcao> correcoesCorretas = corretor.getCorrecoes();
+		ArrayList<Correcao> correcoesCorretas = new ArrayList<Correcao>();
 		correcoesCorretas.add(correcao1);
 		correcoesCorretas.add(correcao2);
 		
@@ -281,7 +284,7 @@ public class CorrecaoTest extends TestCase {
 		correcoes1.put("4", new Double(0));
 		Correcao correcao1 = new Correcao(aluno1, correcoes1, 4);
 		
-		ArrayList<Correcao> correcoesCorretas = corretor.getCorrecoes();
+		ArrayList<Correcao> correcoesCorretas = new ArrayList<Correcao>();
 		correcoesCorretas.add(correcao1);
 		
 		ArrayList<Correcao> correcoes = corretor.getCorrecoes();
@@ -289,12 +292,67 @@ public class CorrecaoTest extends TestCase {
 		assertEquals(correcoes.get(0).getNota(), 0.0);
 	}
 	
-	// testa se as questoes que de relacionar colunas o calculo o ponto da questao � dividido por 1
-	public void testCorrigirQuestoesDeRelacionarColunas(){
+	// testa se a nota esta sendo calcula corretamente para questoes de relacionar colunas
+	public void testCalculoNotaQuestoesDeRelacionarColunas(){
+		corretor = new  Corretor();
+		corretor.setGabaritoFilePath("fixtures\\gabarito_com_correspondencia_de_colunas");
+		corretor.setRespostasFilePath("fixtures\\exercicio_com_correspondencia_de_colunas.xls");
+		corretor.setCorrecaoFilePath("fixtures\\correcoes\\CORRECAO_exercicio_com_correspondencia_de_colunas.xls");
 		
+		Aluno aluno1 = new Aluno("Mon Jan 11 00:00:00 GMT-03:00 2010", "eu", "atilarec@gmail.com");
+		TreeMap<String, String> respostas1 = new TreeMap<String, String>();
+		respostas1.put("1", "a");
+		respostas1.put("2a", "a");
+		respostas1.put("2b", "b");
+		respostas1.put("2c", "c");
+		respostas1.put("3", "c");
+		aluno1.setRespostas(respostas1);
 		
+		TreeMap<String, Double> correcoes1 = new TreeMap<String, Double>();
+		correcoes1.put("1", new Double(1));
+		correcoes1.put("2a", new Double(1));
+		correcoes1.put("2b", new Double(1));
+		correcoes1.put("2c", new Double(1));
+		correcoes1.put("3", new Double(1));
+		Correcao correcao1 = new Correcao(aluno1, correcoes1, 3);
+		
+		Aluno aluno2 = new Aluno("Mon Jan 11 00:00:00 GMT-03:00 2010", "tu", "atila.ufrpe@gmail.com");
+		TreeMap<String, String> respostas2 = new TreeMap<String, String>();
+		respostas2.put("1", "b");
+		respostas2.put("2a", "a");
+		respostas2.put("2b", "c");
+		respostas2.put("2c", "b");
+		respostas2.put("3", "c");
+		aluno2.setRespostas(respostas2);
+		
+		TreeMap<String, Double> correcoes2 = new TreeMap<String, Double>();
+		correcoes2.put("1", new Double(0));
+		correcoes2.put("2a", new Double(1));
+		correcoes2.put("2b", new Double(0));
+		correcoes2.put("2c", new Double(0));
+		correcoes2.put("3", new Double(1));
+		Correcao correcao2 = new Correcao(aluno2, correcoes2, 1.33);
+		
+		ArrayList<Correcao> correcoesCorretas = new ArrayList<Correcao>();
+		correcoesCorretas.add(correcao1);
+		correcoesCorretas.add(correcao2);
+		
+		ArrayList<Correcao> correcoes = corretor.getCorrecoes();
+		
+		for(int i=0; i < correcoes.size(); i++){
+			Correcao correcao = correcoes.get(i);
+			Correcao correcaoCorreta = correcoesCorretas.get(i);
+			assertEquals(correcaoCorreta.getNota(), correcao.getNota());
+			
+			for(String key: correcao.getCorrecoes().keySet()){
+				Double correcaoAluno = correcao.getCorrecoes().get(key);
+				Double correcaoAlunoCorreto = correcaoCorreta.getCorrecoes().get(key);
+				assertEquals(correcaoAlunoCorreto, correcaoAluno);
+			}
+		}
 	}
 	
+	//
 	public void testSeIndexDeQuestoesCorreto(){
 		
 	}
