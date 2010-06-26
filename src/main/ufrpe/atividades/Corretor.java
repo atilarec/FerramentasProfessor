@@ -196,9 +196,6 @@ public class Corretor {
 				
 				if (matcher.find()) {
 					String mached = matcher.group(0).replace(".", "");
-					System.out.print("Start index: " + matcher.start());
-					System.out.print("End index: " + matcher.end() + " ");
-					System.out.println(mached);
 					
 					if (!questoes.containsKey(mached)){
 						questoes.put(mached, new Integer(i));
@@ -340,33 +337,54 @@ public class Corretor {
 		HSSFWorkbook wb = new HSSFWorkbook();
 		HSSFSheet sheet1 = wb.createSheet("Correcao");
 
-		for (int j = 0; j < correcoes.size(); j++) {
-			Correcao correcao = correcoes.get(j);
-			HSSFRow row = sheet1.createRow(j);
-			row.createCell(0).setCellValue(correcao.getAluno().getData());
-			row.createCell(1).setCellValue(correcao.getAluno().getNome());
-			row.createCell(2).setCellValue(correcao.getAluno().getEmail());
-			
-			int i = 0;
-			for (String key : correcao.getCorrecoes().keySet()) {
-				row.createCell(correcoes.size() + i).setCellValue(
-						correcao.getCorrecoes().get(key));
-				i++;
+		int linhaContador = 0;
+		if (correcoes.size() > 0) {
+			// seta a primeira linha com as informacoes das colunas (cabecalho)
+			HSSFRow linhaCabecalho = sheet1.createRow(linhaContador++);
+			/*TreeMap<String,Integer> colunasInfo = getColunasInfos();
+			Object[] keySet = colunasInfo.keySet().toArray();
+			for (int i = 0; i < colunasInfo.size(); i++) {
+				row.createCell(i).setCellValue((String)keySet[i]);
 			}
-			// total
-			row.createCell(row.getLastCellNum()).setCellValue(
-					correcao.getNota());
-		}
-		// Write out the workbook
-		FileOutputStream fileOut;
-		try {
-			fileOut = new FileOutputStream(xlsSaidaPath);
-			wb.write(fileOut);
-			fileOut.close();
-		} catch (FileNotFoundException e) {
-			e.printStackTrace();
-		} catch (IOException e) {
-			e.printStackTrace();
+			TreeMap<String,Integer> colunasQuestoes = this.getColunasQeustoes();
+			keySet = colunasQuestoes.keySet().toArray();
+			for (int i = 0; i < colunasQuestoes.size(); i++) {
+				row.createCell(colunasInfo.size() + i).setCellValue((String)keySet[i]);
+			}
+			row.createCell(colunasInfo.size() + colunasQuestoes.size()).setCellValue("Total");
+			*/
+			for (Correcao correcao : correcoes) {
+				HSSFRow row = sheet1.createRow(linhaContador++);
+				
+				linhaCabecalho.createCell(0).setCellValue(Aluno.DATA_HORA);
+				linhaCabecalho.createCell(1).setCellValue(Aluno.NOME_ALUNO);
+				linhaCabecalho.createCell(2).setCellValue(Aluno.EMAIL_ALUNO);
+				
+				row.createCell(0).setCellValue(correcao.getAluno().getData());
+				row.createCell(1).setCellValue(correcao.getAluno().getNome());
+				row.createCell(2).setCellValue(correcao.getAluno().getEmail());
+				
+				int i = 0;
+				for (String key : correcao.getCorrecoes().keySet()) {
+					row.createCell(3 + i).setCellValue(correcao.getCorrecoes().get(key));
+					linhaCabecalho.createCell(3 + i).setCellValue(key);
+					i++;
+				}
+				// total
+				linhaCabecalho.createCell(3 + i).setCellValue("Total");
+				row.createCell(row.getLastCellNum()).setCellValue(correcao.getNota());
+			}
+			// Write out the workbook
+			FileOutputStream fileOut;
+			try {
+				fileOut = new FileOutputStream(xlsSaidaPath);
+				wb.write(fileOut);
+				fileOut.close();
+			} catch (FileNotFoundException e) {
+				e.printStackTrace();
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
 		}
 	}
 }
